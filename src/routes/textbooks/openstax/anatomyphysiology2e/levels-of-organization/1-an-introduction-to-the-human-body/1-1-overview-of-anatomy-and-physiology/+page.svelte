@@ -58,48 +58,26 @@
     );
   }
 
-  export let multipleChoice = [
-    {
-      id: 1,
-      question: "What is the study of the body's structures called?",
-      options: ["Physiology", "Anatomy", "Biology", "Chemistry"],
-      correctAnswer: 1 // Index of "Anatomy"
-    },
-    {
-      id: 2,
-      question: "Which of the following is a specialization of anatomy?",
-      options: ["Neurophysiology", "Gross anatomy", "Biochemistry", "Pathology"],
-      correctAnswer: 1 // Index of "Gross anatomy"
-    },
-    {
-      id: 3,
-      question: "What does microscopic anatomy study?",
-      options: [
-        "Larger structures visible without magnification",
-        "Structures requiring magnification",
-        "Chemical processes in the body",
-        "Organ system functions"
-      ],
-      correctAnswer: 1 // Index of "Structures requiring magnification"
-    },
-    {
-      id: 4,
-      question: "Which approach examines structures within a specific body region?",
-      options: ["Systemic anatomy", "Regional anatomy", "Microscopic anatomy", "Gross anatomy"],
-      correctAnswer: 1 // Index of "Regional anatomy"
-    },
-    {
-      id: 5,
-      question: "What is the primary focus of physiology?",
-      options: [
-        "The form and composition of the body's components",
-        "The chemistry and physics of the body's structures",
-        "The study of tissues and cells",
-        "The study of body regions"
-      ],
-      correctAnswer: 1 // Index of "The chemistry and physics of the body's structures"
+  let currentPage = 1;
+  const itemsPerPage = 1; // Change to display one flashcard per page
+
+  function paginateFlashCards() {
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    return flashCards.slice(start, end);
+  }
+
+  function nextPage() {
+    if (currentPage < Math.ceil(flashCards.length / itemsPerPage)) {
+      currentPage++;
     }
-  ];
+  }
+
+  function prevPage() {
+    if (currentPage > 1) {
+      currentPage--;
+    }
+  }
 </script>
 
 <h1>1.1 Overview of Anatomy and Physiology</h1>
@@ -210,10 +188,10 @@
 <h2>Test Your Knowledge</h2>
 <div class="flashcard-container">
   {#if flashCards.length > 0}
-    {#each flashCards as card, index (card.id)}
+    {#each paginateFlashCards() as card, index (card.id)}
       <div class="flashcard">
         <p><strong>Question:</strong> {card.question}</p>
-        <button on:click={() => toggleAnswer(index)}>
+        <button on:click={() => toggleAnswer(index + (currentPage - 1) * itemsPerPage)}>
           {card.showAnswer ? 'Hide Answer' : 'Show Answer'}
         </button>
         {#if card.showAnswer}
@@ -222,43 +200,13 @@
         {/if}
       </div>
     {/each}
+    <div class="pagination">
+      <button on:click={prevPage} disabled={currentPage === 1}>Previous</button>
+      <span>Page {currentPage} of {Math.ceil(flashCards.length / itemsPerPage)}</span>
+      <button on:click={nextPage} disabled={currentPage === Math.ceil(flashCards.length / itemsPerPage)}>Next</button>
+    </div>
   {:else}
     <p>No flashcards available.</p>
-  {/if}
-</div>
-
-<h2>Multiple Choice Questions</h2>
-<div class="multiple-choice-container">
-  {#if multipleChoice.length > 0}
-    {#each multipleChoice as question (question.id)}
-      <div class="multiple-choice">
-        <p><strong>Question:</strong> {question.question}</p>
-        <ul>
-          {#each question.options as option, index}
-            <li>
-              <label>
-                <input
-                  type="radio"
-                  name="question-{question.id}"
-                  on:change={() => question.selectedAnswer = index}
-                />
-                {option}
-              </label>
-            </li>
-          {/each}
-        </ul>
-        {#if question.selectedAnswer !== undefined}
-          <p class="{question.selectedAnswer === question.correctAnswer ? 'correct' : 'incorrect'}">
-            {question.selectedAnswer === question.correctAnswer
-              ? 'Correct!'
-              : `Incorrect. The correct answer is: ${question.options[question.correctAnswer]}`}
-          </p>
-          <p><strong>Explanation:</strong> The correct answer is "{question.options[question.correctAnswer]}" because it best fits the question.</p>
-        {/if}
-      </div>
-    {/each}
-  {:else}
-    <p>No multiple-choice questions available.</p>
   {/if}
 </div>
 
@@ -287,34 +235,25 @@
   .flashcard button:hover {
     background-color: #0056b3;
   }
-  .multiple-choice-container {
-    margin-top: 2rem;
+  .pagination {
+    margin-top: 1rem;
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
   }
-  .multiple-choice {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    border-radius: 8px;
-    background-color: #f9f9f9;
+  .pagination button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
   }
-  .multiple-choice p {
-    margin-bottom: 0.5rem;
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
   }
-  .multiple-choice ul {
-    list-style: none;
-    padding: 0;
-  }
-  .multiple-choice li {
-    margin-bottom: 0.5rem;
-  }
-  .correct {
-    color: green;
-    font-weight: bold;
-  }
-  .incorrect {
-    color: red;
+  .pagination span {
     font-weight: bold;
   }
 </style>
