@@ -1,3 +1,64 @@
+<script>
+  export let flashCards = [
+    {
+      "id": 1,
+      "chapter": 1,
+      "subchapter": 1,
+      "question": "What is anatomy?",
+      "answer": "The study of the structure of body parts and their relationships to one another.",
+      "explanation": "Anatomy focuses on the physical structure of the body, including organs, tissues, and systems.",
+      "difficulty": 2,
+      "showAnswer": false // Initialize showAnswer
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "subchapter": 2,
+      "question": "What is physiology?",
+      "answer": "The study of the function of the body’s parts and how they work together.",
+      "explanation": "Physiology explains how body systems perform their tasks and interact to maintain life.",
+      "difficulty": 2,
+      "showAnswer": false // Initialize showAnswer
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "subchapter": 3,
+      "question": "How are anatomy and physiology related?",
+      "answer": "Structure and function are closely related; anatomy provides the map, and physiology explains the processes.",
+      "explanation": "Understanding anatomy helps explain the physical basis for physiological functions.",
+      "difficulty": 3,
+      "showAnswer": false // Initialize showAnswer
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "subchapter": 4,
+      "question": "What are the two main subdivisions of anatomy?",
+      "answer": "Gross anatomy and microscopic anatomy.",
+      "explanation": "Gross anatomy studies large structures visible to the naked eye, while microscopic anatomy focuses on structures requiring magnification.",
+      "difficulty": 3,
+      "showAnswer": false // Initialize showAnswer
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "subchapter": 5,
+      "question": "What is homeostasis?",
+      "answer": "The state of steady internal conditions maintained by living organisms.",
+      "explanation": "Homeostasis is essential for survival, ensuring that internal conditions remain stable despite external changes.",
+      "difficulty": 4,
+      "showAnswer": false // Initialize showAnswer
+    }
+  ];
+
+  function toggleAnswer(index) {
+    flashCards = flashCards.map((card, i) =>
+      i === index ? { ...card, showAnswer: !card.showAnswer } : card
+    );
+  }
+</script>
+
 <h1>1.1 Overview of Anatomy and Physiology</h1>
 <p>This section provides an overview of anatomy and physiology, exploring their definitions and significance.</p>
 <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/1-1-overview-of-anatomy-and-physiology" target="_blank" rel="noopener noreferrer">
@@ -102,3 +163,50 @@
   <h3>What is homeostasis?</h3>
   <p>Homeostasis is the state of steady internal conditions maintained by living things, essential for normal functioning and life.</p>
 </div>
+
+<h2>Test Your Knowledge</h2>
+<div class="flashcard-container">
+  {#if flashCards.length > 0}
+    {#each flashCards as card, index (card.id)}
+      <div class="flashcard">
+        <p><strong>Question:</strong> {card.question}</p>
+        <button on:click={() => toggleAnswer(index)}>
+          {card.showAnswer ? 'Hide Answer' : 'Show Answer'}
+        </button>
+        {#if card.showAnswer}
+          <p><strong>Answer:</strong> {card.answer}</p>
+          <p><strong>Explanation:</strong> {card.explanation}</p>
+        {/if}
+      </div>
+    {/each}
+  {:else}
+    <p>No flashcards available.</p>
+  {/if}
+</div>
+
+<style>
+  .flashcard-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .flashcard {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .flashcard button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .flashcard button:hover {
+    background-color: #0056b3;
+  }
+</style>
