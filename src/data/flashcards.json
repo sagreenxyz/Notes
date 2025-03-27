@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "chapter": 1,
+    "subchapter": 1,
+    "question": "What is anatomy?",
+    "answer": "The study of the structure of body parts and their relationships to one another.",
+    "explanation": "Anatomy focuses on the physical structure of the body, including organs, tissues, and systems.",
+    "difficulty": 2
+  },
+  {
+    "id": 2,
+    "chapter": 1,
+    "subchapter": 2,
+    "question": "What is physiology?",
+    "answer": "The study of the function of the body’s parts and how they work together.",
+    "explanation": "Physiology explains how body systems perform their tasks and interact to maintain life.",
+    "difficulty": 2
+  },
+  {
+    "id": 3,
+    "chapter": 1,
+    "subchapter": 3,
+    "question": "How are anatomy and physiology related?",
+    "answer": "Structure and function are closely related; anatomy provides the map, and physiology explains the processes.",
+    "explanation": "Understanding anatomy helps explain the physical basis for physiological functions.",
+    "difficulty": 3
+  },
+  {
+    "id": 4,
+    "chapter": 1,
+    "subchapter": 4,
+    "question": "What are the two main subdivisions of anatomy?",
+    "answer": "Gross anatomy and microscopic anatomy.",
+    "explanation": "Gross anatomy studies large structures visible to the naked eye, while microscopic anatomy focuses on structures requiring magnification.",
+    "difficulty": 3
+  },
+  {
+    "id": 5,
+    "chapter": 1,
+    "subchapter": 5,
+    "question": "What is homeostasis?",
+    "answer": "The state of steady internal conditions maintained by living organisms.",
+    "explanation": "Homeostasis is essential for survival, ensuring that internal conditions remain stable despite external changes.",
+    "difficulty": 4
+  }
+]
