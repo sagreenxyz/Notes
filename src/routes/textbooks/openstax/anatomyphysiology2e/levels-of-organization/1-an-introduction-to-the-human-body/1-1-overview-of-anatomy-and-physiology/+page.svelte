@@ -57,6 +57,49 @@
       i === index ? { ...card, showAnswer: !card.showAnswer } : card
     );
   }
+
+  export let multipleChoice = [
+    {
+      id: 1,
+      question: "What is the study of the body's structures called?",
+      options: ["Physiology", "Anatomy", "Biology", "Chemistry"],
+      correctAnswer: 1 // Index of "Anatomy"
+    },
+    {
+      id: 2,
+      question: "Which of the following is a specialization of anatomy?",
+      options: ["Neurophysiology", "Gross anatomy", "Biochemistry", "Pathology"],
+      correctAnswer: 1 // Index of "Gross anatomy"
+    },
+    {
+      id: 3,
+      question: "What does microscopic anatomy study?",
+      options: [
+        "Larger structures visible without magnification",
+        "Structures requiring magnification",
+        "Chemical processes in the body",
+        "Organ system functions"
+      ],
+      correctAnswer: 1 // Index of "Structures requiring magnification"
+    },
+    {
+      id: 4,
+      question: "Which approach examines structures within a specific body region?",
+      options: ["Systemic anatomy", "Regional anatomy", "Microscopic anatomy", "Gross anatomy"],
+      correctAnswer: 1 // Index of "Regional anatomy"
+    },
+    {
+      id: 5,
+      question: "What is the primary focus of physiology?",
+      options: [
+        "The form and composition of the body's components",
+        "The chemistry and physics of the body's structures",
+        "The study of tissues and cells",
+        "The study of body regions"
+      ],
+      correctAnswer: 1 // Index of "The chemistry and physics of the body's structures"
+    }
+  ];
 </script>
 
 <h1>1.1 Overview of Anatomy and Physiology</h1>
@@ -184,6 +227,41 @@
   {/if}
 </div>
 
+<h2>Multiple Choice Questions</h2>
+<div class="multiple-choice-container">
+  {#if multipleChoice.length > 0}
+    {#each multipleChoice as question (question.id)}
+      <div class="multiple-choice">
+        <p><strong>Question:</strong> {question.question}</p>
+        <ul>
+          {#each question.options as option, index}
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question-{question.id}"
+                  on:change={() => question.selectedAnswer = index}
+                />
+                {option}
+              </label>
+            </li>
+          {/each}
+        </ul>
+        {#if question.selectedAnswer !== undefined}
+          <p class="{question.selectedAnswer === question.correctAnswer ? 'correct' : 'incorrect'}">
+            {question.selectedAnswer === question.correctAnswer
+              ? 'Correct!'
+              : `Incorrect. The correct answer is: ${question.options[question.correctAnswer]}`}
+          </p>
+          <p><strong>Explanation:</strong> The correct answer is "{question.options[question.correctAnswer]}" because it best fits the question.</p>
+        {/if}
+      </div>
+    {/each}
+  {:else}
+    <p>No multiple-choice questions available.</p>
+  {/if}
+</div>
+
 <style>
   .flashcard-container {
     margin-top: 2rem;
@@ -208,5 +286,35 @@
   }
   .flashcard button:hover {
     background-color: #0056b3;
+  }
+  .multiple-choice-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .multiple-choice {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .multiple-choice p {
+    margin-bottom: 0.5rem;
+  }
+  .multiple-choice ul {
+    list-style: none;
+    padding: 0;
+  }
+  .multiple-choice li {
+    margin-bottom: 0.5rem;
+  }
+  .correct {
+    color: green;
+    font-weight: bold;
+  }
+  .incorrect {
+    color: red;
+    font-weight: bold;
   }
 </style>
