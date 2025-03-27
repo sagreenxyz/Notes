@@ -418,6 +418,11 @@
   </div>
 </div>
 
+<h2 class="raw-notes-heading">Raw Notes</h2>
+<div class="raw-notes">
+  <!-- Content will be pasted here -->
+</div>
+
 <style>
   .flashcard-container {
     margin-top: 2rem;
@@ -571,5 +576,12 @@
   .quiz-container .option.incorrect label {
     color: #dc3545; /* Red for incorrect */
     font-weight: bold;
+  }
+  .raw-notes-heading {
+    display: none; /* Hide the raw notes heading */
+  }
+  .raw-notes {
+    margin-top: 2rem;
+    display: none; /* Hide the raw notes section */
   }
 </style>
