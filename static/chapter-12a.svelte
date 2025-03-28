@@ -10,7 +10,7 @@
 				<li>thoracic</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> cranial</p>
-			<p><em>Explanation:</em> The cranial cavity houses the brain, which is a major component of the central nervous system.</p>
+			<p><strong>Explanation:</strong> The cranial cavity houses the brain, which is a major component of the central nervous system.</p>
 		</li>
 		<li>
 			<p>Which structure predominates in the white matter of the brain?</p>
@@ -21,7 +21,7 @@
 				<li>neuronal cell bodies</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> myelinated axons</p>
-			<p><em>Explanation:</em> White matter in the brain is primarily composed of myelinated axons, which are responsible for transmitting signals between different parts of the brain and spinal cord.</p>
+			<p><strong>Explanation:</strong> White matter in the brain is primarily composed of myelinated axons, which are responsible for transmitting signals between different parts of the brain and spinal cord.</p>
 		</li>
 		<li>
 			<p>Which part of a neuron transmits an electrical signal to a target cell?</p>
@@ -32,7 +32,7 @@
 				<li>dendrites</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> axon</p>
-			<p><em>Explanation:</em> The axon is the part of the neuron that carries electrical impulses away from the cell body to other neurons, muscles, or glands.</p>
+			<p><strong>Explanation:</strong> The axon is the part of the neuron that carries electrical impulses away from the cell body to other neurons, muscles, or glands.</p>
 		</li>
 		<li>
 			<p>Which term describes a bundle of axons in the peripheral nervous system?</p>
@@ -43,7 +43,7 @@
 				<li>nerve</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> nerve</p>
-			<p><em>Explanation:</em> In the peripheral nervous system, a bundle of axons is called a nerve, whereas in the central nervous system, it is called a tract.</p>
+			<p><strong>Explanation:</strong> In the peripheral nervous system, a bundle of axons is called a nerve, whereas in the central nervous system, it is called a tract.</p>
 		</li>
 		<li>
 			<p>Which functional division of the nervous system would be responsible for the physiological changes seen during exercise (e.g., increased heart rate and sweating)?</p>
@@ -54,7 +54,7 @@
 				<li>autonomic</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> autonomic</p>
-			<p><em>Explanation:</em> The autonomic nervous system regulates involuntary physiological functions, including those that occur during exercise, such as increased heart rate and sweating.</p>
+			<p><strong>Explanation:</strong> The autonomic nervous system regulates involuntary physiological functions, including those that occur during exercise, such as increased heart rate and sweating.</p>
 		</li>
 		<li>
 			<p>Which part of a neuron contains the nucleus?</p>
@@ -65,7 +65,7 @@
 				<li>dendrite</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> soma</p>
-			<p><em>Explanation:</em> The soma, or cell body, of a neuron contains the nucleus and is responsible for maintaining the cell's health and function.</p>
+			<p><strong>Explanation:</strong> The soma, or cell body, of a neuron contains the nucleus and is responsible for maintaining the cell's health and function.</p>
 		</li>
 		<li>
 			<p>What type of receptor requires an effector protein to initiate a signal?</p>
@@ -76,7 +76,7 @@
 				<li>metabotropic receptor</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> metabotropic receptor</p>
-			<p><em>Explanation:</em> Metabotropic receptors require an effector protein, such as a G-protein, to initiate a signal transduction pathway within the cell.</p>
+			<p><strong>Explanation:</strong> Metabotropic receptors require an effector protein, such as a G-protein, to initiate a signal transduction pathway within the cell.</p>
 		</li>
 		<li>
 			<p>Voltage-gated Na+ channels open upon reaching what state?</p>
@@ -87,7 +87,7 @@
 				<li>overshoot</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> threshold</p>
-			<p><em>Explanation:</em> Voltage-gated Na+ channels open when the membrane potential reaches a certain threshold, allowing sodium ions to enter the cell and initiate an action potential.</p>
+			<p><strong>Explanation:</strong> Voltage-gated Na+ channels open when the membrane potential reaches a certain threshold, allowing sodium ions to enter the cell and initiate an action potential.</p>
 		</li>
 		<li>
 			<p>Which of the following neurotransmitters is associated with inhibition exclusively?</p>
@@ -98,7 +98,7 @@
 				<li>acetylcholine</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> GABA</p>
-			<p><em>Explanation:</em> GABA (gamma-aminobutyric acid) is an inhibitory neurotransmitter that reduces neuronal excitability throughout the nervous system.</p>
+			<p><strong>Explanation:</strong> GABA (gamma-aminobutyric acid) is an inhibitory neurotransmitter that reduces neuronal excitability throughout the nervous system.</p>
 		</li>
 		<li>
 			<p>What two types of macromolecules are the main components of myelin?</p>
@@ -109,7 +109,7 @@
 				<li>carbohydrates and lipids</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> lipids and proteins</p>
-			<p><em>Explanation:</em> Myelin is primarily composed of lipids and proteins, which help insulate axons and increase the speed of electrical signal transmission.</p>
+			<p><strong>Explanation:</strong> Myelin is primarily composed of lipids and proteins, which help insulate axons and increase the speed of electrical signal transmission.</p>
 		</li>
 		<li>
 			<p>The ______________ is a single process of the neuron that carries an electrical signal (action potential) away from the cell body toward a target cell.</p>
@@ -120,7 +120,7 @@
 				<li>dendrite</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> axon</p>
-			<p><em>Explanation:</em> The axon is the part of the neuron that transmits electrical signals away from the cell body to other neurons, muscles, or glands.</p>
+			<p><strong>Explanation:</strong> The axon is the part of the neuron that transmits electrical signals away from the cell body to other neurons, muscles, or glands.</p>
 		</li>
 		<li>
 			<p>Which of these locations is where the greatest level of integration is taking place in the example of testing the temperature of the shower?</p>
@@ -131,7 +131,7 @@
 				<li>cerebral cortex</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> cerebral cortex</p>
-			<p><em>Explanation:</em> The cerebral cortex is responsible for higher-level processing and integration of sensory information, such as determining the temperature of the shower.</p>
+			<p><strong>Explanation:</strong> The cerebral cortex is responsible for higher-level processing and integration of sensory information, such as determining the temperature of the shower.</p>
 		</li>
 		<li>
 			<p>What neurotransmitter is released at the neuromuscular junction?</p>
@@ -142,7 +142,7 @@
 				<li>norepinephrine</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> acetylcholine</p>
-			<p><em>Explanation:</em> Acetylcholine is the neurotransmitter released at the neuromuscular junction, where it stimulates muscle contraction.</p>
+			<p><strong>Explanation:</strong> Acetylcholine is the neurotransmitter released at the neuromuscular junction, where it stimulates muscle contraction.</p>
 		</li>
 		<li>
 			<p>How long does all the signaling through the sensory pathway, within the central nervous system, and through the motor command pathway take?</p>
@@ -153,7 +153,7 @@
 				<li>fraction of a second</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> fraction of a second</p>
-			<p><em>Explanation:</em> The entire process of sensory input, central processing, and motor output typically occurs within a fraction of a second.</p>
+			<p><strong>Explanation:</strong> The entire process of sensory input, central processing, and motor output typically occurs within a fraction of a second.</p>
 		</li>
 		<li>
 			<p>What type of glial cell provides myelin for the axons in a tract?</p>
@@ -164,7 +164,7 @@
 				<li>Schwann cell</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> oligodendrocyte</p>
-			<p><em>Explanation:</em> Oligodendrocytes are glial cells in the central nervous system that produce myelin to insulate axons and improve signal transmission.</p>
+			<p><strong>Explanation:</strong> Oligodendrocytes are glial cells in the central nervous system that produce myelin to insulate axons and improve signal transmission.</p>
 		</li>
 		<li>
 			<p>What ion enters a neuron causing depolarization of the cell membrane?</p>
@@ -175,7 +175,7 @@
 				<li>phosphate</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> sodium</p>
-			<p><em>Explanation:</em> Sodium ions enter the neuron during depolarization, causing the membrane potential to become more positive and initiating an action potential.</p>
+			<p><strong>Explanation:</strong> Sodium ions enter the neuron during depolarization, causing the membrane potential to become more positive and initiating an action potential.</p>
 		</li>
 		<li>
 			<p>What does a mechanically gated channel respond to?</p>
@@ -186,7 +186,7 @@
 				<li>decrease in resistance</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> physical stimulus</p>
-			<p><em>Explanation:</em> Mechanically gated channels open in response to physical stimuli, such as pressure or stretch, allowing ions to flow across the membrane.</p>
+			<p><strong>Explanation:</strong> Mechanically gated channels open in response to physical stimuli, such as pressure or stretch, allowing ions to flow across the membrane.</p>
 		</li>
 		<li>
 			<p>Which of the following voltages would most likely be measured during the relative refractory period?</p>
@@ -197,7 +197,7 @@
 				<li>+30 mV</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> -80 mV</p>
-			<p><em>Explanation:</em> During the relative refractory period, the membrane potential is more negative than the resting potential, typically around -80 mV.</p>
+			<p><strong>Explanation:</strong> During the relative refractory period, the membrane potential is more negative than the resting potential, typically around -80 mV.</p>
 		</li>
 		<li>
 			<p>The ion channel that opens when a physical event directly affects the structure of the protein is called:</p>
@@ -208,7 +208,7 @@
 				<li>ionotropic channel</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> mechanically gated channel</p>
-			<p><em>Explanation:</em> Mechanically gated channels open in response to physical changes in the structure of the protein, such as pressure or stretch.</p>
+			<p><strong>Explanation:</strong> Mechanically gated channels open in response to physical changes in the structure of the protein, such as pressure or stretch.</p>
 		</li>
 		<li>
 			<p>Which part of the nervous system is responsible for the fight-or-flight response?</p>
@@ -219,7 +219,7 @@
 				<li>enteric nervous system</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> sympathetic nervous system</p>
-			<p><em>Explanation:</em> The sympathetic nervous system is responsible for the fight-or-flight response, which prepares the body for action in stressful situations.</p>
+			<p><strong>Explanation:</strong> The sympathetic nervous system is responsible for the fight-or-flight response, which prepares the body for action in stressful situations.</p>
 		</li>
 	</ol>
 </section>

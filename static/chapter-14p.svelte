@@ -10,7 +10,7 @@
 				<li>trigeminal</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> facial</p>
-			<p><em>Explanation:</em> The facial nerve (cranial nerve VII) transmits taste sensations from the anterior two-thirds of the tongue.</p>
+			<p><strong>Explanation:</strong> The facial nerve (cranial nerve VII) transmits taste sensations from the anterior two-thirds of the tongue.</p>
 		</li>
 		<li>
 			<p>Which submodality of taste is sensitive to the pH of saliva?</p>
@@ -21,7 +21,7 @@
 				<li>sour</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> sour</p>
-			<p><em>Explanation:</em> Sour taste is sensitive to the pH of saliva, which is influenced by the concentration of hydrogen ions.</p>
+			<p><strong>Explanation:</strong> Sour taste is sensitive to the pH of saliva, which is influenced by the concentration of hydrogen ions.</p>
 		</li>
 		<li>
 			<p>Axons from which neuron in the retina make up the optic nerve?</p>
@@ -32,7 +32,7 @@
 				<li>retinal ganglion cells</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> retinal ganglion cells</p>
-			<p><em>Explanation:</em> The axons of retinal ganglion cells converge to form the optic nerve, which transmits visual information to the brain.</p>
+			<p><strong>Explanation:</strong> The axons of retinal ganglion cells converge to form the optic nerve, which transmits visual information to the brain.</p>
 		</li>
 		<li>
 			<p>What type of receptor cell is involved in the sensations of sound and balance?</p>
@@ -43,7 +43,7 @@
 				<li>chemoreceptor</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> mechanoreceptor</p>
-			<p><em>Explanation:</em> Mechanoreceptors are responsible for detecting mechanical changes, such as sound waves and head movements, which are essential for hearing and balance.</p>
+			<p><strong>Explanation:</strong> Mechanoreceptors are responsible for detecting mechanical changes, such as sound waves and head movements, which are essential for hearing and balance.</p>
 		</li>
 		<li>
 			<p>What type of receptor cell is responsible for transducing pain stimuli?</p>
@@ -54,7 +54,7 @@
 				<li>photoreceptor</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> nociceptor</p>
-			<p><em>Explanation:</em> Nociceptors are sensory receptors that respond to potentially damaging stimuli by sending signals to the brain, which are perceived as pain.</p>
+			<p><strong>Explanation:</strong> Nociceptors are sensory receptors that respond to potentially damaging stimuli by sending signals to the brain, which are perceived as pain.</p>
 		</li>
 		<li>
 			<p>Which nucleus in the medulla is connected to the inferior colliculus?</p>
@@ -65,7 +65,7 @@
 				<li>chief sensory nucleus</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> cochlear nucleus</p>
-			<p><em>Explanation:</em> The cochlear nucleus in the medulla receives auditory information from the cochlea and sends it to the inferior colliculus for further processing.</p>
+			<p><strong>Explanation:</strong> The cochlear nucleus in the medulla receives auditory information from the cochlea and sends it to the inferior colliculus for further processing.</p>
 		</li>
 		<li>
 			<p>This is a word meaning on the same side.</p>
@@ -76,7 +76,7 @@
 				<li>otolateral</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> ipsilateral</p>
-			<p><em>Explanation:</em> Ipsilateral refers to structures on the same side of the body.</p>
+			<p><strong>Explanation:</strong> Ipsilateral refers to structures on the same side of the body.</p>
 		</li>
 		<li>
 			<p>Visual stimuli in the upper-left visual field will be processed in what region of the primary visual cortex?</p>
@@ -87,7 +87,7 @@
 				<li>inferior right</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> inferior right</p>
-			<p><em>Explanation:</em> Visual information from the upper-left visual field is processed in the inferior right region of the primary visual cortex.</p>
+			<p><strong>Explanation:</strong> Visual information from the upper-left visual field is processed in the inferior right region of the primary visual cortex.</p>
 		</li>
 		<li>
 			<p>____________ is a molecule that activates nociceptors by interacting with a temperature-sensitive ion channel and is the basis for “hot” sensations in spicy food.</p>
@@ -98,7 +98,7 @@
 				<li>Auricle</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> Capsaicin</p>
-			<p><em>Explanation:</em> Capsaicin is a compound found in chili peppers that activates nociceptors, causing the sensation of heat or spiciness.</p>
+			<p><strong>Explanation:</strong> Capsaicin is a compound found in chili peppers that activates nociceptors, causing the sensation of heat or spiciness.</p>
 		</li>
 		<li>
 			<p>Which location on the body has the largest region of somatosensory cortex representing it, according to the sensory homunculus?</p>
@@ -109,7 +109,7 @@
 				<li>lips</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> lips</p>
-			<p><em>Explanation:</em> The lips have a large representation in the somatosensory cortex, reflecting their high sensitivity and importance in sensory perception.</p>
+			<p><strong>Explanation:</strong> The lips have a large representation in the somatosensory cortex, reflecting their high sensitivity and importance in sensory perception.</p>
 		</li>
 		<li>
 			<p>Which of the following is a direct target of the vestibular ganglion?</p>
@@ -120,7 +120,7 @@
 				<li>optic chiasm</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> cerebellum</p>
-			<p><em>Explanation:</em> The vestibular ganglion sends information about balance and spatial orientation directly to the cerebellum for processing.</p>
+			<p><strong>Explanation:</strong> The vestibular ganglion sends information about balance and spatial orientation directly to the cerebellum for processing.</p>
 		</li>
 		<li>
 			<p>This is a specialized structure within the base of a semicircular canal that bends the stereocilia of hair cells when the head rotates by way of the relative movement of the enclosed fluid.</p>
@@ -131,7 +131,7 @@
 				<li>decussate</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> cupula</p>
-			<p><em>Explanation:</em> The cupula is a gelatinous structure in the semicircular canals that moves in response to head rotation, bending the stereocilia of hair cells and aiding in balance.</p>
+			<p><strong>Explanation:</strong> The cupula is a gelatinous structure in the semicircular canals that moves in response to head rotation, bending the stereocilia of hair cells and aiding in balance.</p>
 		</li>
 		<li>
 			<p>This structure is located in the ear, it is the structure at the base of a semicircular canal that contains the hair cells and cupula for transduction of rotational movement of the head.</p>
@@ -142,7 +142,7 @@
 				<li>ampulla</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> ampulla</p>
-			<p><em>Explanation:</em> The ampulla is a structure in the ear that contains hair cells and the cupula, which are involved in detecting rotational movements of the head.</p>
+			<p><strong>Explanation:</strong> The ampulla is a structure in the ear that contains hair cells and the cupula, which are involved in detecting rotational movements of the head.</p>
 		</li>
 		<li>
 			<p>Which region of the frontal lobe is responsible for initiating movement by directly connecting to cranial and spinal motor neurons?</p>
@@ -153,7 +153,7 @@
 				<li>premotor cortex</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> primary motor cortex</p>
-			<p><em>Explanation:</em> The primary motor cortex is responsible for initiating voluntary movements by sending signals directly to cranial and spinal motor neurons.</p>
+			<p><strong>Explanation:</strong> The primary motor cortex is responsible for initiating voluntary movements by sending signals directly to cranial and spinal motor neurons.</p>
 		</li>
 		<li>
 			<p>Which extrapyramidal tract incorporates equilibrium sensations with motor commands to aid in posture and movement?</p>
@@ -164,7 +164,7 @@
 				<li>reticulospinal tract</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> vestibulospinal tract</p>
-			<p><em>Explanation:</em> The vestibulospinal tract integrates balance and equilibrium information with motor commands to help maintain posture and coordinate movements.</p>
+			<p><strong>Explanation:</strong> The vestibulospinal tract integrates balance and equilibrium information with motor commands to help maintain posture and coordinate movements.</p>
 		</li>
 		<li>
 			<p>Which region of gray matter in the spinal cord contains motor neurons that innervate skeletal muscles?</p>
@@ -175,7 +175,7 @@
 				<li>lateral horn</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> ventral horn</p>
-			<p><em>Explanation:</em> The ventral horn of the spinal cord contains motor neurons that send signals to skeletal muscles, enabling movement.</p>
+			<p><strong>Explanation:</strong> The ventral horn of the spinal cord contains motor neurons that send signals to skeletal muscles, enabling movement.</p>
 		</li>
 		<li>
 			<p>What type of reflex can protect the foot when a painful stimulus is sensed?</p>
@@ -186,7 +186,7 @@
 				<li>withdrawal reflex</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> withdrawal reflex</p>
-			<p><em>Explanation:</em> The withdrawal reflex is an automatic response that causes a body part to pull away from a painful stimulus, protecting it from harm.</p>
+			<p><strong>Explanation:</strong> The withdrawal reflex is an automatic response that causes a body part to pull away from a painful stimulus, protecting it from harm.</p>
 		</li>
 		<li>
 			<p>What is the name for the topographical representation of the sensory input to the somatosensory cortex?</p>
@@ -197,7 +197,7 @@
 				<li>homunculus</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> homunculus</p>
-			<p><em>Explanation:</em> The homunculus is a visual representation of the sensory input to the somatosensory cortex, showing the relative size of cortical areas dedicated to different body parts.</p>
+			<p><strong>Explanation:</strong> The homunculus is a visual representation of the sensory input to the somatosensory cortex, showing the relative size of cortical areas dedicated to different body parts.</p>
 		</li>
 		<li>
 			<p>What is the name of a photopigment molecule found in the rod photoreceptors?</p>
@@ -208,7 +208,7 @@
 				<li>rhodopsin</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> rhodopsin</p>
-			<p><em>Explanation:</em> Rhodopsin is a photopigment found in rod cells of the retina, which is essential for low-light vision.</p>
+			<p><strong>Explanation:</strong> Rhodopsin is a photopigment found in rod cells of the retina, which is essential for low-light vision.</p>
 		</li>
 		<li>
 			<p>_________________ is a general sense associated with modalities lumped together as touch.</p>
@@ -219,7 +219,7 @@
 				<li>Vitreal</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> Somatosensation</p>
-			<p><em>Explanation:</em> Somatosensation is the collective term for the various sensory modalities that make up the sense of touch, including pressure, vibration, and temperature.</p>
+			<p><strong>Explanation:</strong> Somatosensation is the collective term for the various sensory modalities that make up the sense of touch, including pressure, vibration, and temperature.</p>
 		</li>
 	</ol>
 </section>

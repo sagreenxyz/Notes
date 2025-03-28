@@ -10,7 +10,7 @@
 				<li>visceral peritoneum</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> visceral peritoneum</p>
-			<p><em>Explanation:</em> The visceral peritoneum is the membrane that directly covers the organs in the abdominal cavity, including the stomach.</p>
+			<p><strong>Explanation:</strong> The visceral peritoneum is the membrane that directly covers the organs in the abdominal cavity, including the stomach.</p>
 		</li>
 		<li>
 			<p>Pancreatic juice ____________.</p>
@@ -21,7 +21,7 @@
 				<li>buffers chyme.</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> buffers chyme</p>
-			<p><em>Explanation:</em> Pancreatic juice contains bicarbonate ions that help to neutralize the acidic chyme entering the duodenum from the stomach.</p>
+			<p><strong>Explanation:</strong> Pancreatic juice contains bicarbonate ions that help to neutralize the acidic chyme entering the duodenum from the stomach.</p>
 		</li>
 		<li>
 			<p>Which of these processes occurs throughout most of the alimentary canal?</p>
@@ -32,7 +32,7 @@
 				<li>ingestion</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> propulsion</p>
-			<p><em>Explanation:</em> Propulsion is the process of moving food through the alimentary canal, which occurs throughout most of the digestive tract.</p>
+			<p><strong>Explanation:</strong> Propulsion is the process of moving food through the alimentary canal, which occurs throughout most of the digestive tract.</p>
 		</li>
 		<li>
 			<p>Which of these is involved in the chemical digestion of protein?</p>
@@ -43,7 +43,7 @@
 				<li>trypsin</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> trypsin</p>
-			<p><em>Explanation:</em> Trypsin is an enzyme produced by the pancreas that helps in the chemical digestion of proteins in the small intestine.</p>
+			<p><strong>Explanation:</strong> Trypsin is an enzyme produced by the pancreas that helps in the chemical digestion of proteins in the small intestine.</p>
 		</li>
 		<li>
 			<p>Which of these statements about reflexes in the GI tract is false?</p>
@@ -54,7 +54,7 @@
 				<li>Long reflexes can be provoked by stimuli originating outside the GI tract.</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> Food that distends the stomach initiates long reflexes</p>
-			<p><em>Explanation:</em> Long reflexes are typically initiated by stimuli originating outside the GI tract, while short reflexes are mediated by the enteric nervous system and occur within the GI tract.</p>
+			<p><strong>Explanation:</strong> Long reflexes are typically initiated by stimuli originating outside the GI tract, while short reflexes are mediated by the enteric nervous system and occur within the GI tract.</p>
 		</li>
 		<li>
 			<p>Parietal cells secrete ________.</p>
@@ -65,7 +65,7 @@
 				<li>hydrochloric acid</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> hydrochloric acid</p>
-			<p><em>Explanation:</em> Parietal cells in the stomach lining secrete hydrochloric acid, which helps to create an acidic environment for digestion.</p>
+			<p><strong>Explanation:</strong> Parietal cells in the stomach lining secrete hydrochloric acid, which helps to create an acidic environment for digestion.</p>
 		</li>
 		<li>
 			<p>Which of these nutrients is absorbed mainly in the duodenum?</p>
@@ -76,7 +76,7 @@
 				<li>iron</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> iron</p>
-			<p><em>Explanation:</em> Iron is primarily absorbed in the duodenum, the first part of the small intestine.</p>
+			<p><strong>Explanation:</strong> Iron is primarily absorbed in the duodenum, the first part of the small intestine.</p>
 		</li>
 		<li>
 			<p>Where are most fat-digesting enzymes produced?</p>
@@ -87,7 +87,7 @@
 				<li>liver</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> pancreas</p>
-			<p><em>Explanation:</em> The pancreas produces most of the enzymes required for the digestion of fats.</p>
+			<p><strong>Explanation:</strong> The pancreas produces most of the enzymes required for the digestion of fats.</p>
 		</li>
 		<li>
 			<p>Which structure is located where the esophagus penetrates the diaphragm?</p>
@@ -98,7 +98,7 @@
 				<li>cardiac orifice</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> esophageal hiatus</p>
-			<p><em>Explanation:</em> The esophageal hiatus is the opening in the diaphragm through which the esophagus passes.</p>
+			<p><strong>Explanation:</strong> The esophageal hiatus is the opening in the diaphragm through which the esophagus passes.</p>
 		</li>
 		<li>
 			<p>Where does the chemical digestion of starch begin?</p>
@@ -109,7 +109,7 @@
 				<li>stomach</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> mouth</p>
-			<p><em>Explanation:</em> The chemical digestion of starch begins in the mouth with the action of salivary amylase.</p>
+			<p><strong>Explanation:</strong> The chemical digestion of starch begins in the mouth with the action of salivary amylase.</p>
 		</li>
 		<li>
 			<p>Which of these organs is not considered an accessory digestive structure?</p>
@@ -120,7 +120,7 @@
 				<li>salivary glands</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> mouth</p>
-			<p><em>Explanation:</em> The mouth is part of the alimentary canal, not an accessory digestive structure.</p>
+			<p><strong>Explanation:</strong> The mouth is part of the alimentary canal, not an accessory digestive structure.</p>
 		</li>
 		<li>
 			<p>Which of these statements about bile is true? Select all that may apply.</p>
@@ -131,7 +131,7 @@
 				<li>Its main function is the denaturation of proteins.</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> About 600 mL is secreted daily; Bile salts are recycled</p>
-			<p><em>Explanation:</em> Bile is produced by the liver, and about 600 mL is secreted daily. Bile salts are recycled through the enterohepatic circulation.</p>
+			<p><strong>Explanation:</strong> Bile is produced by the liver, and about 600 mL is secreted daily. Bile salts are recycled through the enterohepatic circulation.</p>
 		</li>
 		<li>
 			<p>Which phase of deglutition involves contraction of the longitudinal muscle layer of the muscularis?</p>
@@ -142,7 +142,7 @@
 				<li>voluntary phase</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> esophageal phase</p>
-			<p><em>Explanation:</em> The esophageal phase of deglutition involves the contraction of the longitudinal muscle layer of the muscularis to move the bolus toward the stomach.</p>
+			<p><strong>Explanation:</strong> The esophageal phase of deglutition involves the contraction of the longitudinal muscle layer of the muscularis to move the bolus toward the stomach.</p>
 		</li>
 		<li>
 			<p>Which of these cells secrete hormones?</p>
@@ -153,7 +153,7 @@
 				<li>parietal cells</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> enteroendocrine cells</p>
-			<p><em>Explanation:</em> Enteroendocrine cells secrete hormones that regulate various functions of the digestive system.</p>
+			<p><strong>Explanation:</strong> Enteroendocrine cells secrete hormones that regulate various functions of the digestive system.</p>
 		</li>
 		<li>
 			<p>During gastric emptying, chyme is released into the duodenum through the ________.</p>
@@ -164,7 +164,7 @@
 				<li>esophageal hiatus</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> pyloric sphincter</p>
-			<p><em>Explanation:</em> The pyloric sphincter is the valve that regulates the release of chyme from the stomach into the duodenum.</p>
+			<p><strong>Explanation:</strong> The pyloric sphincter is the valve that regulates the release of chyme from the stomach into the duodenum.</p>
 		</li>
 		<li>
 			<p>Which of these statements about the pharynx is true?</p>
@@ -175,7 +175,7 @@
 				<li>The nasopharynx is involved in digestion.</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> The oropharynx is continuous superiorly with the nasopharynx</p>
-			<p><em>Explanation:</em> The oropharynx is the part of the pharynx that is continuous superiorly with the nasopharynx.</p>
+			<p><strong>Explanation:</strong> The oropharynx is the part of the pharynx that is continuous superiorly with the nasopharynx.</p>
 		</li>
 		<li>
 			<p>Which of these is most associated with villi?</p>
@@ -186,7 +186,7 @@
 				<li>bacterial flora</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> lacteals</p>
-			<p><em>Explanation:</em> Lacteals are lymphatic vessels located in the villi of the small intestine that absorb dietary fats.</p>
+			<p><strong>Explanation:</strong> Lacteals are lymphatic vessels located in the villi of the small intestine that absorb dietary fats.</p>
 		</li>
 		<li>
 			<p>What is the role of the small intestine’s MALT?</p>
@@ -197,7 +197,7 @@
 				<li>buffering acidic chyme</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> preventing bacteria from entering the bloodstream</p>
-			<p><em>Explanation:</em> Mucosa-associated lymphoid tissue (MALT) in the small intestine helps to prevent bacteria from entering the bloodstream.</p>
+			<p><strong>Explanation:</strong> Mucosa-associated lymphoid tissue (MALT) in the small intestine helps to prevent bacteria from entering the bloodstream.</p>
 		</li>
 		<li>
 			<p>Which part of the large intestine attaches to the appendix?</p>
@@ -208,7 +208,7 @@
 				<li>ascending colon</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> cecum</p>
-			<p><em>Explanation:</em> The appendix is attached to the cecum, which is the first part of the large intestine.</p>
+			<p><strong>Explanation:</strong> The appendix is attached to the cecum, which is the first part of the large intestine.</p>
 		</li>
 		<li>
 			<p>Which of the following is the primary function of the large intestine?</p>
@@ -219,7 +219,7 @@
 				<li>protein digestion</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> water absorption</p>
-			<p><em>Explanation:</em> The primary function of the large intestine is to absorb water from the remaining indigestible food matter and transmit the useless waste material from the body.</p>
+			<p><strong>Explanation:</strong> The primary function of the large intestine is to absorb water from the remaining indigestible food matter and transmit the useless waste material from the body.</p>
 		</li>
 	</ol>
 </section>

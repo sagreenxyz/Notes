@@ -10,7 +10,7 @@
 				<li>left lymphatic trunk</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> thoracic duct</p>
-			<p><em>Explanation:</em> The thoracic duct is the main lymphatic vessel that drains lymph from the lower right limb and other parts of the body into the bloodstream.</p>
+			<p><strong>Explanation:</strong> The thoracic duct is the main lymphatic vessel that drains lymph from the lower right limb and other parts of the body into the bloodstream.</p>
 		</li>
 		<li>
 			<p>The ductus venosus is a shunt that allows ___________________________________.</p>
@@ -21,7 +21,7 @@
 				<li>fetal blood to flow from the right atrium to the left atrium</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> most freshly oxygenated blood to flow into the fetal heart</p>
-			<p><em>Explanation:</em> The ductus venosus is a fetal blood vessel that allows oxygenated blood from the placenta to bypass the liver and flow directly into the fetal heart.</p>
+			<p><strong>Explanation:</strong> The ductus venosus is a fetal blood vessel that allows oxygenated blood from the placenta to bypass the liver and flow directly into the fetal heart.</p>
 		</li>
 		<li>
 			<p>The development of new blood vessels from existing vessels is called _____________________.</p>
@@ -32,7 +32,7 @@
 				<li>angiogenesis</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> angiogenesis</p>
-			<p><em>Explanation:</em> Angiogenesis is the process by which new blood vessels form from pre-existing vessels, playing a crucial role in growth and wound healing.</p>
+			<p><strong>Explanation:</strong> Angiogenesis is the process by which new blood vessels form from pre-existing vessels, playing a crucial role in growth and wound healing.</p>
 		</li>
 		<li>
 			<p>Which of the following cells would be most active in early, antiviral immune responses the first time one is exposed to a pathogen?</p>
@@ -43,7 +43,7 @@
 				<li>neutrophil</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> natural killer cell</p>
-			<p><em>Explanation:</em> Natural killer cells are part of the innate immune system and are among the first responders to viral infections, attacking infected cells directly.</p>
+			<p><strong>Explanation:</strong> Natural killer cells are part of the innate immune system and are among the first responders to viral infections, attacking infected cells directly.</p>
 		</li>
 		<li>
 			<p>Which of the following statements is true?</p>
@@ -54,7 +54,7 @@
 				<li>One umbilical vein carries oxygen-rich blood from the placenta to the fetal heart.</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> One umbilical vein carries oxygen-rich blood from the placenta to the fetal heart.</p>
-			<p><em>Explanation:</em> The umbilical vein is responsible for transporting oxygenated blood from the placenta to the fetus, providing essential nutrients and oxygen.</p>
+			<p><strong>Explanation:</strong> The umbilical vein is responsible for transporting oxygenated blood from the placenta to the fetus, providing essential nutrients and oxygen.</p>
 		</li>
 		<li>
 			<p>Removing functionality from a B cell without killing it is called ________.</p>
@@ -65,7 +65,7 @@
 				<li>clonal deletion</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> clonal anergy</p>
-			<p><em>Explanation:</em> Clonal anergy is a process where B cells become non-responsive to specific antigens without undergoing cell death, preventing autoimmune responses.</p>
+			<p><strong>Explanation:</strong> Clonal anergy is a process where B cells become non-responsive to specific antigens without undergoing cell death, preventing autoimmune responses.</p>
 		</li>
 		<li>
 			<p>Which of the following cells is phagocytic?</p>
@@ -76,7 +76,7 @@
 				<li>NK cell</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> macrophage</p>
-			<p><em>Explanation:</em> Macrophages are phagocytic cells that engulf and digest pathogens, cellular debris, and other harmful particles in the body.</p>
+			<p><strong>Explanation:</strong> Macrophages are phagocytic cells that engulf and digest pathogens, cellular debris, and other harmful particles in the body.</p>
 		</li>
 		<li>
 			<p>Which of the following signs is not characteristic of inflammation?</p>
@@ -87,7 +87,7 @@
 				<li>cold</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> cold</p>
-			<p><em>Explanation:</em> Inflammation typically presents with redness, swelling, pain, and heat, but not cold.</p>
+			<p><strong>Explanation:</strong> Inflammation typically presents with redness, swelling, pain, and heat, but not cold.</p>
 		</li>
 		<li>
 			<p>Enhanced phagocytosis of a cell by the binding of a specific protein is called ________.</p>
@@ -98,7 +98,7 @@
 				<li>anaphylaxis</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> opsonization</p>
-			<p><em>Explanation:</em> Opsonization is the process by which pathogens are marked for phagocytosis by the binding of opsonins, enhancing their recognition and ingestion by phagocytes.</p>
+			<p><strong>Explanation:</strong> Opsonization is the process by which pathogens are marked for phagocytosis by the binding of opsonins, enhancing their recognition and ingestion by phagocytes.</p>
 		</li>
 		<li>
 			<p>Which of the following leads to the redness of inflammation?</p>
@@ -109,7 +109,7 @@
 				<li>increased blood flow</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> increased blood flow</p>
-			<p><em>Explanation:</em> Increased blood flow to the affected area during inflammation causes redness, as more blood is delivered to the site of injury or infection.</p>
+			<p><strong>Explanation:</strong> Increased blood flow to the affected area during inflammation causes redness, as more blood is delivered to the site of injury or infection.</p>
 		</li>
 		<li>
 			<p>T cells that secrete cytokines that help antibody responses are called ________.</p>
@@ -120,7 +120,7 @@
 				<li>Th2</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> Th2</p>
-			<p><em>Explanation:</em> Th2 cells are a subset of T helper cells that produce cytokines to support B cell antibody production and humoral immunity.</p>
+			<p><strong>Explanation:</strong> Th2 cells are a subset of T helper cells that produce cytokines to support B cell antibody production and humoral immunity.</p>
 		</li>
 		<li>
 			<p>The taking in of antigen and digesting it for later presentation is called ________.</p>
@@ -131,7 +131,7 @@
 				<li>antigen processing</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> antigen processing</p>
-			<p><em>Explanation:</em> Antigen processing involves the uptake and breakdown of antigens by antigen-presenting cells, preparing them for presentation to T cells.</p>
+			<p><strong>Explanation:</strong> Antigen processing involves the uptake and breakdown of antigens by antigen-presenting cells, preparing them for presentation to T cells.</p>
 		</li>
 		<li>
 			<p>Blood islands are ____________________________________.</p>
@@ -142,7 +142,7 @@
 				<li>vascular tubes that give rise to the embryonic tubular heart</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> masses of developing blood vessels and formed elements scattered throughout the embryonic disc</p>
-			<p><em>Explanation:</em> Blood islands are clusters of cells in the early embryo that give rise to blood vessels and blood cells, playing a key role in embryonic development.</p>
+			<p><strong>Explanation:</strong> Blood islands are clusters of cells in the early embryo that give rise to blood vessels and blood cells, playing a key role in embryonic development.</p>
 		</li>
 		<li>
 			<p>Why is clonal expansion so important?</p>
@@ -153,7 +153,7 @@
 				<li>to increase the numbers of specific cells</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> to increase the numbers of specific cells</p>
-			<p><em>Explanation:</em> Clonal expansion is crucial for amplifying the number of specific immune cells, ensuring an effective and robust immune response to pathogens.</p>
+			<p><strong>Explanation:</strong> Clonal expansion is crucial for amplifying the number of specific immune cells, ensuring an effective and robust immune response to pathogens.</p>
 		</li>
 		<li>
 			<p>Which of the lymphoid nodules is most likely to see food antigens first?</p>
@@ -164,7 +164,7 @@
 				<li>tonsils</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> tonsils</p>
-			<p><em>Explanation:</em> Tonsils are lymphoid tissues located at the entrance of the respiratory and digestive tracts, making them the first to encounter ingested or inhaled antigens.</p>
+			<p><strong>Explanation:</strong> Tonsils are lymphoid tissues located at the entrance of the respiratory and digestive tracts, making them the first to encounter ingested or inhaled antigens.</p>
 		</li>
 		<li>
 			<p>The elimination of self-reactive thymocytes is called ________.</p>
@@ -175,7 +175,7 @@
 				<li>tolerance</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> negative selection</p>
-			<p><em>Explanation:</em> Negative selection is the process by which self-reactive thymocytes are eliminated in the thymus, preventing autoimmune responses.</p>
+			<p><strong>Explanation:</strong> Negative selection is the process by which self-reactive thymocytes are eliminated in the thymus, preventing autoimmune responses.</p>
 		</li>
 		<li>
 			<p>Which type of T cell is most effective against viruses?</p>
@@ -186,7 +186,7 @@
 				<li>regulatory T cells</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> cytotoxic T cells</p>
-			<p><em>Explanation:</em> Cytotoxic T cells are specialized in identifying and destroying virus-infected cells, playing a critical role in the immune response against viral infections.</p>
+			<p><strong>Explanation:</strong> Cytotoxic T cells are specialized in identifying and destroying virus-infected cells, playing a critical role in the immune response against viral infections.</p>
 		</li>
 		<li>
 			<p>Which class of antibody crosses the placenta in pregnant women?</p>
@@ -197,7 +197,7 @@
 				<li>IgG</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> IgG</p>
-			<p><em>Explanation:</em> IgG is the only class of antibody that can cross the placenta, providing passive immunity to the fetus by transferring maternal antibodies.</p>
+			<p><strong>Explanation:</strong> IgG is the only class of antibody that can cross the placenta, providing passive immunity to the fetus by transferring maternal antibodies.</p>
 		</li>
 		<li>
 			<p>Which enzymes in macrophages are important for clearing intracellular bacteria?</p>
@@ -208,7 +208,7 @@
 				<li>lysosomal</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> lysosomal</p>
-			<p><em>Explanation:</em> Lysosomal enzymes in macrophages break down and digest intracellular bacteria, aiding in the clearance of infections.</p>
+			<p><strong>Explanation:</strong> Lysosomal enzymes in macrophages break down and digest intracellular bacteria, aiding in the clearance of infections.</p>
 		</li>
 		<li>
 			<p>Which of the following arteries is a continuation of the external iliac artery after it passes through the body cavity?</p>
@@ -219,7 +219,7 @@
 				<li>femoral</li>
 			</ul>
 			<p><strong>Correct Answer:</strong> femoral</p>
-			<p><em>Explanation:</em> The femoral artery is the continuation of the external iliac artery after it passes through the inguinal ligament, supplying blood to the lower limb.</p>
+			<p><strong>Explanation:</strong> The femoral artery is the continuation of the external iliac artery after it passes through the inguinal ligament, supplying blood to the lower limb.</p>
 		</li>
 	</ol>
 </section>
