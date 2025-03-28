@@ -20,7 +20,7 @@ def parse_questions(filepath):
             question_text = question.find('p').text.strip() if question.find('p') else None
             options = [li.text.strip() for li in question.find('ul').find_all('li')] if question.find('ul') else []  # Extract options
             correct_answers_text = question.find('strong', text='Correct Answer:').next_sibling.strip() if question.find('strong', text='Correct Answer:') else None
-            correct_answers = [answer.strip() for answer in correct_answers_text.split(',')] if correct_answers_text else []  # Convert to array
+            correct_answers = [options.index(answer.strip()) for answer in correct_answers_text.split(',') if answer.strip() in options] if correct_answers_text else []  # Convert to indices
             explanation = question.find('strong', text='Explanation:').next_sibling.strip() if question.find('strong', text='Explanation:') else None
             
             if question_text and correct_answers and explanation:
@@ -28,7 +28,7 @@ def parse_questions(filepath):
                     "chapter": chapter_title,  # Store the chapter as an integer
                     "question": question_text,
                     "options": options,
-                    "correct_answers": correct_answers,
+                    "correct_answers": correct_answers,  # Store indices of correct answers
                     "explanation": explanation
                 })
     
