@@ -1,0 +1,1852 @@
+<script>
+	// Add any necessary script logic here
+	function toggleAccordion(event) {
+		const section = event.target.closest('section');
+		if (section) {
+			section.classList.toggle('collapsed');
+		}
+	}
+</script>
+
+<style>
+	/* General styles */
+	body {
+		font-family: 'Roboto', sans-serif;
+		line-height: 1.8;
+		color: #2c3e50;
+		background-color: #ecf0f1;
+		margin: 0;
+		padding: 0;
+	}
+
+	main {
+		max-width: 900px;
+		margin: 2rem auto;
+		padding: 2rem;
+		background: #ffffff;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+
+	h1 {
+		text-align: center;
+		color: #2980b9;
+		margin-bottom: 2rem;
+		font-size: 2rem;
+	}
+
+	section {
+		margin-bottom: 2rem;
+	}
+
+	h2 {
+		color: #34495e;
+		background: #bdc3c7;
+		padding: 0.8rem 1rem;
+		border-radius: 5px;
+		cursor: pointer;
+		user-select: none;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	h2:hover {
+		background: #95a5a6;
+	}
+
+	h2::after {
+		content: '▼';
+		font-size: 1rem;
+		color: #34495e;
+		transition: transform 0.3s;
+	}
+
+	section.collapsed h2::after {
+		transform: rotate(-90deg);
+	}
+
+	article {
+		margin-bottom: 1.5rem;
+		padding: 1rem;
+		background: #f8f9fa;
+		border: 1px solid #dcdde1;
+		border-radius: 5px;
+	}
+
+	h3 {
+		color: #2c3e50;
+		margin-bottom: 0.5rem;
+		font-size: 1.2rem;
+	}
+
+	p {
+		margin: 0.5rem 0;
+		color: #7f8c8d;
+	}
+
+	ul {
+		margin: 0.5rem 0 1rem 1.5rem;
+		padding: 0;
+		list-style-type: disc;
+	}
+
+	li {
+		margin-bottom: 0.5rem;
+		color: #2c3e50;
+	}
+
+	strong {
+		color: #2980b9;
+	}
+
+	/* Highlight correct answers */
+	li strong {
+		color: #27ae60;
+		font-weight: bold;
+	}
+
+	/* Explanation styling */
+	p strong {
+		color: #34495e;
+		font-weight: bold;
+	}
+
+	/* Add hover effect for articles */
+	article:hover {
+		background: #eaf2f8;
+		border-color: #2980b9;
+		transition: background 0.3s, border-color 0.3s;
+	}
+
+	/* Accordion styles */
+	section.collapsed > div {
+		display: none;
+	}
+</style>
+
+<main>
+	<h1>Anatomy Questions</h1>
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 1 - Placeholder</h2>
+		<div>
+			<h3>Chapter 1 - Homework</h3>
+			<article>
+				<h3>Question 1</h3>
+				<p><strong>Metabolism is the sum of all chemical reactions that take place in an organism.</strong></p>
+				<ul>
+					<li>True</li>
+					<li>False</li>
+				</ul>
+				<p><strong>Correct Answer:</strong> True</p>
+				<p><strong>Explanation:</strong> Metabolism encompasses all chemical reactions in an organism, including those that build up and break down molecules.</p>
+			</article>
+	
+			<article>
+				<h3>Question 2</h3>
+				<p><strong>Metabolism includes catabolism and diabolism.</strong></p>
+				<ul>
+					<li>True</li>
+					<li>False</li>
+				</ul>
+				<p><strong>Correct Answer:</strong> False</p>
+				<p><strong>Explanation:</strong> Metabolism includes catabolism (breaking down molecules) and anabolism (building molecules), not "diabolism."</p>
+			</article>
+	
+			<article>
+				<h3>Question 3</h3>
+				<p><strong>All of the processes of metabolism are completely efficient.</strong></p>
+				<ul>
+					<li>True</li>
+					<li>False</li>
+				</ul>
+				<p><strong>Correct Answer:</strong> False</p>
+				<p><strong>Explanation:</strong> Metabolic processes are not 100% efficient; some energy is lost as heat.</p>
+			</article>
+	
+			<h3>Chapter 1 - Quiz</h3>
+			<article>
+				<h3>Question 1</h3>
+				<p><strong>The smallest independently functioning biological unit of an organism is a(n) ________.</strong></p>
+				<ul>
+					<li>Molecule</li>
+					<li>Tissue</li>
+					<li>Organ</li>
+					<li><strong>Cell</strong></li>
+				</ul>
+				<p><strong>Correct Answer:</strong> Cell</p>
+				<p><strong>Explanation:</strong> The cell is the basic structural and functional unit of all living organisms.</p>
+			</article>
+	
+			<article>
+				<h3>Question 2</h3>
+				<p><strong>Which of the following is an example of a normal physiologic process that uses a positive feedback loop?</strong></p>
+				<ul>
+					<li>Temperature regulation</li>
+					<li>Blood pressure regulation</li>
+					<li>Regulation of fluid balance</li>
+					<li><strong>Childbirth</strong></li>
+				</ul>
+				<p><strong>Correct Answer:</strong> Childbirth</p>
+				<p><strong>Explanation:</strong> Positive feedback loops amplify changes, such as the release of oxytocin during childbirth to intensify contractions.</p>
+			</article>
+			<!-- Add placeholders for missing questions -->
+			<article>
+				<h3>Question 3</h3>
+				<p>Placeholder for Question 3</p>
+			</article>
+			<article>
+				<h3>Question 4</h3>
+				<p>Placeholder for Question 4</p>
+			</article>
+			<!-- Repeat for remaining questions up to Question 20 -->
+			<article>
+				<h3>Question 20</h3>
+				<p>Placeholder for Question 20</p>
+			</article>
+		</div>
+	</section>
+	
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 2 - Placeholder</h2>
+		<div>
+			<h3>Chapter 2 - Homework</h3>
+			<article>
+				<h3>Question 1</h3>
+				<p><strong>All of the elements in the second column of the periodic table all have a single valence electron.</strong></p>
+				<ul>
+					<li>True</li>
+					<li>False</li>
+				</ul>
+				<p><strong>Correct Answer:</strong> False</p>
+				<p><strong>Explanation:</strong> Elements in the second column of the periodic table have two valence electrons, not one.</p>
+			</article>
+	
+			<article>
+				<h3>Question 2</h3>
+				<p><strong>The mass number is the total number of protons and neutrons in a nucleus.</strong></p>
+				<ul>
+					<li>True</li>
+					<li>False</li>
+				</ul>
+				<p><strong>Correct Answer:</strong> True</p>
+				<p><strong>Explanation:</strong> The mass number is calculated by adding the number of protons and neutrons in an atom's nucleus.</p>
+			</article>
+	
+			<h3>Chapter 2 - Quiz</h3>
+			<article>
+				<h3>Question 1</h3>
+				<p><strong>The ability of an enzyme’s active sites to bind only substrates of compatible shape and charge is known as ____________.</strong></p>
+				<ul>
+					<li>Selectivity</li>
+					<li><strong>Specificity</strong></li>
+					<li>Subjectivity</li>
+					<li>Specialty</li>
+				</ul>
+				<p><strong>Correct Answer:</strong> Specificity</p>
+				<p><strong>Explanation:</strong> Enzymes are highly specific and only bind to substrates that match their active site.</p>
+			</article>
+	
+			<article>
+				<h3>Question 2</h3>
+				<p><strong>________ reactions release energy.</strong></p>
+				<ul>
+					<li>Exergonic</li>
+					<li>Catabolic</li>
+					<li>Decomposition</li>
+					<li><strong>All of the above</strong></li>
+				</ul>
+				<p><strong>Correct Answer:</strong> All of the above</p>
+				<p><strong>Explanation:</strong> Exergonic, catabolic, and decomposition reactions all release energy as bonds are broken.</p>
+			</article>
+			<!-- Add placeholders for missing questions -->
+			<article>
+				<h3>Question 3</h3>
+				<p>Placeholder for Question 3</p>
+			</article>
+			<article>
+				<h3>Question 4</h3>
+				<p>Placeholder for Question 4</p>
+			</article>
+			<!-- Repeat for remaining questions up to Question 20 -->
+			<article>
+				<h3>Question 20</h3>
+				<p>Placeholder for Question 20</p>
+			</article>
+		</div>
+	</section>
+
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 3</h2>
+		<div>
+			<h3>Chapter 3 - Homework</h3>
+			Question 1
+			1 / 1 pts
+			What happens to the small and large ribosomal subunits at the end of translation?
+			
+			  The stay together to form larger molecules 
+			  They separate to form DNA 
+			Correct!
+			  They separate and move and are free to join translation of other segments of mRNA. 
+			  They stay together to form amino acids. 
+			 
+			Question 2
+			1 / 1 pts
+			More specifically, on what structure are proteins synthesized?
+			
+			  DNA 
+			  RNA 
+			  amino acids 
+			Correct!
+			  ribosomes 
+			 
+			Question 3
+			1 / 1 pts
+			To whom does the DNA give instructions to build a protein?
+			
+			 
+			
+			 
+			
+			  rRNA 
+			  mDNA 
+			Correct!
+			  mRNA 
+			  rDNA 
+			 
+			Question 4
+			1 / 1 pts
+			During what phase of the cell cycle is the DNA replicated?
+			
+			 
+			
+			  G1 
+			  G2 
+			Correct!
+			  S 
+			  cytokenesis 
+			 
+			Question 5
+			1 / 1 pts
+			Every type of cell goes through Mitosis?
+			
+			  True 
+			Correct!
+			  False 
+
+			<h3>Chapter 3 - Quiz</h3>
+			Question 1
+			1 / 1 pts
+			The diffusion of substances within a solution tends to move those substances ________ their ________ gradient.
+			
+			  up; electrochemical 
+			Correct!
+			  down; concentration 
+			  down; pressure 
+			  up; electrical 
+			 
+			Question 2
+			1 / 1 pts
+			Ion pumps and phagocytosis are both examples of ________.
+			
+			  passive transport 
+			  facilitated transport 
+			Correct!
+			  active transport 
+			  endocytosis 
+			 
+			Question 3
+			1 / 1 pts
+			The rough ER has its name due to what associated structures?
+			
+			  proteins 
+			  lysosomes 
+			  Golgi apparatus 
+			Correct!
+			  Ribosomes 
+			 
+			Question 4
+			1 / 1 pts
+			What is a primary function of tumor suppressor genes?
+			
+			  help oncogenes produce oncoproteins 
+			  stop all cells from dividing 
+			  allow the cell to skip certain phases of the cell cycle 
+			Correct!
+			  stop certain cells from dividing 
+			 
+			Question 5
+			1 / 1 pts
+			Which of the following is a feature common to all three components of the cytoskeleton?
+			
+			  They are all characterized by roughly the same diameter. 
+			  They all help the cell resist compression and tension. 
+			  They all serve to scaffold the organelles within the cell. 
+			Correct!
+			  They are all polymers of protein subunits. 
+			 
+			Question 6
+			1 / 1 pts
+			Which of the following organelles produces large quantities of ATP when both glucose and oxygen are available to the cell?
+			
+			  lysosoomes 
+			  peroxisomes 
+			Correct!
+			  mitochondria 
+			  endoplasmic reticulum 
+			 
+			Question 7
+			1 / 1 pts
+			The nucleus and mitochondria share which of the following features?
+			
+			  the production of cellular energy 
+			Correct!
+			  a double cell membrane 
+			  the synthesis of ribosomes 
+			  protein-lined membrane pores 
+			 
+			Question 8
+			1 / 1 pts
+			Which of the following sequences on a DNA molecule would be complementary to GCTTATAT?
+			
+			  ATCCGCGC 
+			  TGCCTCTC 
+			Correct!
+			  CGAATATA 
+			  TAGGCGCG 
+			 
+			Question 9
+			0 / 1 pts
+			Arrange the following terms in order of decreasing specialization: oligopotency, pleuripotency, unipotency, multipotency.
+			
+			You Answered
+			  multipotency, pleuripotency, oligopotency, unipotency 
+			Correct Answer
+			  unipotency, oligopotency, multipotency, pleuripotency 
+			  pleuripotency, oligopotency, multipotency unipotency 
+			  oligopotency, pleuripotency, unipotency, multipotency 
+			 
+			Question 10
+			1 / 1 pts
+			Which of the following is not a difference between DNA and RNA?
+			  RNA is single stranded and DNA is double stranded 
+			  DNA contains deoxyribose and RNA contains ribose 
+			Correct!
+			  DNA contains alternating sugar-phosphate molecules whereas RNA does not contain sugars 
+			  DNA contains thymine whereas RNA contains uracil 
+			 
+			Question 11
+			1 / 1 pts
+			How many “letters” of an RNA molecule, in sequence, does it take to provide the code for a single amino acid?
+			
+			  4 
+			  1 
+			  2 
+			Correct!
+			  3 
+			 
+			Question 12
+			0 / 1 pts
+			Which of the following is not made out of RNA?
+			  the messenger molecule that provides the code for protein synthesis 
+			You Answered
+			  a ribosome 
+			  the carriers that shuffle amino acids to a growing polypeptide strand 
+			Correct Answer
+			  an intron 
+			 
+			Question 13
+			1 / 1 pts
+			Which of the following is part of the elongation step of DNA synthesis?
+			
+			  pulling apart the two DNA strands 
+			  untwisting the DNA helix 
+			Correct!
+			  attaching complementary nucleotides to the template strand 
+			  none of these answers 
+			 
+			Question 14
+			1 / 1 pts
+			Which of the following phases is characterized by preparation for DNA synthesis?
+			
+			Correct!
+			  G1 
+			  G0 
+			  Interphase 
+			  S 
+			 
+			Question 15
+			1 / 1 pts
+			Place the following structures in order from least to most complex organization: chromatin, nucleosome, DNA, chromosome
+			
+			  nucleosome, chromatin, DNA, chromosome 
+			  DNA, chromatin, nucleosome, chromosome 
+			Correct!
+			  DNA, nucleosome, chromatin, chromosome 
+			  nucleosome, DNA, chromosome, chromatin 
+			 
+			Question 16
+			1 / 1 pts
+			What multipotent stem cells from children are sometimes banked by parents?
+			
+			  embryonic stem cells 
+			  hematopoietic stem cells from red and white blood cells 
+			Correct!
+			  cells from the umbilical cord and from baby teeth 
+			  fetal stem cells 
+			 
+			Question 17
+			1 / 1 pts
+			_________________ is breakdown of cells by their own enzymatic action.
+			
+			  autopotency 
+			  diffusion 
+			  multipotency 
+			Correct!
+			  autolysis 
+			 
+			Question 18
+			0 / 1 pts
+			A mutation in the gene for a cyclin protein might result in which of the following?
+			
+			Correct Answer
+			  any of the these 
+			  a cell with additional genetic material than normal 
+			  a cell with less genetic material than normal 
+			You Answered
+			  cancer 
+			 
+			Question 19
+			1 / 1 pts
+			Which of the following phases is characterized by an inactive stage (G0, G1, G2, S)?
+			
+			Correct!
+			  G0 
+			  G2 
+			  S 
+			  G1 
+			 
+			Question 20
+			1 / 1 pts
+			What name is given to the region of attachment for two sister chromatids in a cell?
+			  centrosome 
+			  meta plate 
+			Correct!
+			  centromere 
+			  centromid 
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 7 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 7 - Placeholder</h2>
+		<div>
+			<h3>Chapter 7 - Homework</h3>
+			<!-- Add content here -->
+			<h3>Chapter 7 - Quiz</h3>
+			<!-- Add content here -->
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 8 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 8 - Placeholder</h2>
+		<div>
+			<h3>Chapter 8 - Homework</h3>
+			<!-- Add content here -->
+			<h3>Chapter 8 - Quiz</h3>
+			<!-- Add content here -->
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 11 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 13 - Placeholder</h2>
+		<div>
+			<h3>Chapter 11 - Homework</h3>
+			Question 1
+			1 / 1 pts
+			An action potential releases stores of water.
+			  True 
+			Correct!
+			  False 
+			 
+			Question 2
+			1 / 1 pts
+			T-tubules crisscross the cells.
+			Correct!
+			  True 
+			  False 
+			 
+			Question 3
+			1 / 1 pts
+			Depolarization is the same as an action potential.
+			Correct!
+			  True 
+			  False 
+			 
+			Question 4
+			1 / 1 pts
+			The sacroplasmic reticulum is the main storage space for Calcium in muscle cells.
+			Correct!
+			  True 
+			  False 
+			 
+			Question 5
+			1 / 1 pts
+			Troponin binds to calcium thus moving tropomyosin off the myosin binding sites.
+			Correct!
+			  True 
+			  False 
+			<h3>Chapter 11 - Quiz</h3>
+			Question 1
+			1 / 1 pts
+			What is the action of the masseter?
+			
+			  closing the eye 
+			Correct!
+			  chewing 
+			  moving the lips 
+			  swallowing 
+			 
+			Question 2
+			1 / 1 pts
+			Which of the following helps an agonist work?
+			
+			  an insertion 
+			  an antagonist 
+			  a fixator 
+			Correct!
+			  a synergist 
+			 
+			Question 3
+			1 / 1 pts
+			Which muscle has a convergent pattern of fascicles?
+			
+			  gluteus maximus 
+			  rectus femoris 
+			  biceps brachii 
+			Correct!
+			  pectoralis major 
+			 
+			Question 4
+			1 / 1 pts
+			Which of the following is unique to the muscles of facial expression?
+			
+			  They only insert onto the facial bones. 
+			  They insert onto the cartilage found around the face. 
+			Correct!
+			  They insert into the skin. 
+			  They all originate from the scalp musculature. 
+			 
+			Question 5
+			1 / 1 pts
+			Which muscles stabilize the pectoral girdle?
+			
+			  axial 
+			  axial and appendicular 
+			  appendicular 
+			Correct!
+			  axial and scapular 
+			 
+			Question 6
+			1 / 1 pts
+			Which arrangement best describes a bipennate muscle?
+			
+			  The muscle fibers on one side of a tendon feed into it at a certain angle and muscle fibers on the other side of the tendon feed into it at the opposite angle. 
+			Correct!
+			  The muscle fibers feed in on an angle to a long tendon from both sides. 
+			  The muscle fibers feed in on an angle to a long tendon from one side. 
+			  The muscle fibers feed in on an angle to a long tendon from all directions. 
+			 
+			Question 7
+			1 / 1 pts
+			Anatomists name the skeletal muscles according to a number of criteria such as  ________.
+			
+			Correct!
+			  all of these 
+			  shape 
+			  location 
+			  number of origins or its action 
+			 
+			Question 8
+			1 / 1 pts
+			Which muscle name does not make sense?
+			
+			  gluteus minimus 
+			  extensor digitorum 
+			Correct!
+			  extensor minimus longus 
+			  biceps femoris 
+			 
+			Question 9
+			1 / 1 pts
+			Which of the following is a prime mover in head flexion?
+			
+			  corrugator supercilii 
+			  masseter 
+			  occipitofrontalis 
+			Correct!
+			  sternocleidomastoid 
+			 
+			Question 10
+			1 / 1 pts
+			Which muscle extends the forearm?
+			
+			  biceps brachii 
+			  brachialis 
+			  deltoid 
+			Correct!
+			  triceps brachii 
+			 
+			Question 11
+			1 / 1 pts
+			Which is moved the least during muscle contraction?
+			
+			Correct!
+			  the origin 
+			  the ligaments 
+			  the insertion 
+			  the joints 
+			 
+			Question 12
+			1 / 1 pts
+			Where is the inferior oblique muscle located?
+			
+			Correct!
+			  in the eye socket 
+			  in the face 
+			  in the anterior neck 
+			  in the abdomen 
+			 
+			Question 13
+			1 / 1 pts
+			The names of the extrinsic tongue muscles commonly end in ________.
+			
+			  glottis 
+			  hyoid 
+			Correct!
+			  glossus 
+			  gluteus 
+			 
+			Question 14
+			1 / 1 pts
+			The large muscle group that attaches the leg to the pelvic girdle and produces extension of the hip joint is the ________ group.
+			
+			  adductor 
+			  obturator 
+			Correct!
+			  gluteal 
+			  abductor 
+			 
+			Question 15
+			0 / 1 pts
+			What is the smallest muscle in the lower leg?
+			
+			  soleus 
+			You Answered
+			  tibialis anterior 
+			  gastrocnemius 
+			Correct Answer
+			  plantaris 
+			 
+			Question 16
+			0 / 1 pts
+			What is the function of the erector spinae?
+			
+			  movement of the arms 
+			You Answered
+			  stabilization of the pelvic girdle 
+			  hip support 
+			Correct Answer
+			  rotating of the vertebral column 
+			 
+			Question 17
+			1 / 1 pts
+			Which of the following abdominal muscles is not a part of the anterior abdominal wall?
+			
+			  interior oblique 
+			  rectus abdominis 
+			  exterior oblique 
+			Correct!
+			  quadratus lumborum 
+			 
+			Question 18
+			1 / 1 pts
+			Which muscle pair plays a role in respiration?
+			
+			  semispinalis cervicis, semispinalis thoracis 
+			Correct!
+			  diaphragm, scalene 
+			  intertransversarii, interspinales 
+			  trapezius, rhomboids 
+			 
+			Question 19
+			1 / 1 pts
+			The vastus intermedius muscle is deep to which of the following muscles?
+			
+			  vastus lateralis 
+			  biceps femoris 
+			Correct!
+			  rectus femoris 
+			  vastus medialis 
+			 
+			Question 20
+			1 / 1 pts
+			What is another term for swallowing?
+			Correct!
+			  deglutition 
+			  glutination 
+			  axialate 
+			  mastigation 
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 13 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 13 - Placeholder</h2>
+		<div>
+			<h3>Chapter 13 - Homework</h3>
+			Question 1
+			1 / 1 pts
+			The forebrain, midbrain and hindbrain all begin to develop right at about 25 days.
+			Correct!
+			  True 
+			  False 
+			 
+			Question 2
+			1 / 1 pts
+			The rostral end of the brain is also known as the hindbrain.
+			  True 
+			Correct!
+			  False 
+			 
+			Question 3
+			1 / 1 pts
+			Two distinct bends appear at about 100 days of development.
+			  True 
+			Correct!
+			  False 
+			 
+			Question 4
+			1 / 1 pts
+			homework13.jpg
+			
+			If every neuron were to be worth 1 second of time, approximately 6,000 years would represent all of the neurons of the brain.
+			
+			  True 
+			Correct!
+			  False 
+			 
+			Question 5
+			1 / 1 pts
+			homework13b.jpg
+			
+			Neurons cannot vary in length.
+			
+			  True 
+			Correct!
+			  False 
+			<h3>Chapter 13 - Quiz</h3>
+			Question 1
+			1 / 1 pts
+			Which lobe of the cerebral cortex is responsible for generating motor commands?
+			
+			  parietal 
+			Correct!
+			  frontal 
+			  occipital 
+			  temporal 
+			 
+			Question 2
+			1 / 1 pts
+			Which primary vesicle of the embryonic nervous system does not differentiate into more vesicles at the secondary stage?
+			
+			  diencephalon 
+			  prosencephalon 
+			  rhombencephalon 
+			Correct!
+			  mesencephalon 
+			 
+			Question 3
+			1 / 1 pts
+			Which adult structure(s) arises from the diencephalon?
+			
+			  pons and cerebellum 
+			  midbrain, pons, medulla 
+			Correct!
+			  thalamus, hypothalamus, retina 
+			  cerebrum 
+			 
+			Question 4
+			1 / 1 pts
+			Which non-nervous tissue develops from the neuroectoderm?
+			
+			Correct!
+			  craniofacial bone 
+			  vertebral bone 
+			  digestive lining 
+			  respiratory mucosa 
+			 
+			Question 5
+			0 / 1 pts
+			Which of these structures is not under direct control of the peripheral nervous system?
+			
+			Correct Answer
+			  gastric plexus 
+			  cervical plexus 
+			  sympathetic chain ganglia 
+			You Answered
+			  trigeminal ganglion 
+			 
+			Question 6
+			1 / 1 pts
+			Which structure is associated with the embryologic development of the peripheral nervous system?
+			
+			  neural tube 
+			  neuraxis 
+			Correct!
+			  neural crest 
+			  rhombencephalon 
+			 
+			Question 7
+			0 / 1 pts
+			The ___________________ is the nucleus deep in the temporal lobe of the cerebrum that is related to memory and emotional behavior.
+			You Answered
+			  medulla 
+			Correct Answer
+			  amygdala 
+			  dura 
+			  cranial 
+			 
+			Question 8
+			1 / 1 pts
+			What is the name for a bundle of axons within a nerve?
+			
+			Correct!
+			  fascicle 
+			  epineurium 
+			  tract 
+			  nerve root 
+			 
+			Question 9
+			0 / 1 pts
+			What region of the diencephalon coordinates homeostasis?
+			
+			Correct Answer
+			  hypothalamus 
+			You Answered
+			  thalamus 
+			  epithalamus 
+			  subthalamus 
+			 
+			Question 10
+			1 / 1 pts
+			What condition causes a stroke?
+			
+			  infection of cerebral spinal fluid 
+			  inflammation of meninges 
+			Correct!
+			  disruption of blood to the brain 
+			  lumbar puncture 
+			 
+			Question 11
+			1 / 1 pts
+			Which cranial nerve(s) controls the functions in the head and neck?
+			
+			  olfactory 
+			  trochlear 
+			Correct!
+			  all of these 
+			  glossopharyngeal 
+			 
+			Question 12
+			1 / 1 pts
+			Which ganglion is responsible for cutaneous sensations of the face?
+			
+			Correct!
+			  trigeminal ganglion 
+			  vestibular ganglion 
+			  otic ganglion 
+			  geniculate ganglion 
+			 
+			Question 13
+			0 / 1 pts
+			What level of the brain stem is the major input to the cerebellum?
+			
+			Correct Answer
+			  pons 
+			  spinal cord 
+			  midbrain 
+			You Answered
+			  medulla 
+			 
+			Question 14
+			1 / 1 pts
+			What region of the spinal cord contains motor neurons that direct the movement of skeletal muscles?
+			
+			  posterior horn 
+			  lateral horn 
+			  alar plate 
+			Correct!
+			  anterior horn 
+			 
+			Question 15
+			1 / 1 pts
+			Brodmann’s areas map different regions of the ________ to particular functions.
+			
+			Correct!
+			  cerebral cortex 
+			  basal forebrain 
+			  cerebellum 
+			  corpus callosum 
+			 
+			Question 16
+			1 / 1 pts
+			Aside from the nervous system, which other organ system develops out of the ectoderm?
+			
+			  respiratory 
+			  urinary 
+			  digestive 
+			Correct!
+			  integumentary 
+			 
+			Question 17
+			1 / 1 pts
+			What blood vessel enters the cranium to supply the brain with fresh, oxygenated blood?
+			
+			  common carotid artery 
+			Correct!
+			  internal carotid artery 
+			  aorta 
+			  jugular vein 
+			 
+			Question 18
+			1 / 1 pts
+			Which layer of the meninges surrounds and supports the sinuses that form the route through which blood drains from the CNS?
+			  arachnoid mater 
+			  pia mater 
+			Correct!
+			  dura mater 
+			  subarachnoid 
+			 
+			Question 19
+			1 / 1 pts
+			What type of glial cell is responsible for filtering blood to produce CSF at the choroid plexus?
+			
+			Correct!
+			  ependymal cell 
+			  oligodendrocyte 
+			  Schwann cell 
+			  astrocyte 
+			 
+			Question 20
+			1 / 1 pts
+			Which portion of the ventricular system is found within the diencephalon?
+			
+			Correct!
+			  third ventricle 
+			  fourth ventricle 
+			  cerebral aqueduct 
+			  lateral ventricles 
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 14 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 14 - Placeholder</h2>
+		<div>
+			<h3>Chapter 14 - Homework</h3>
+			Question 1
+			1 / 1 pts
+			Danielle Reed became interested in the study of genetics ever since she was curious to the nature of an overweight bunny.
+			  True 
+			Correct!
+			  False 
+			 
+			Question 2
+			1 / 1 pts
+			People tend to fall into two large groups known as “tasters” and “non-tasters” on the basis of the density of papillae on their tongue.
+			Correct!
+			  True 
+			  False 
+			 
+			Question 3
+			1 / 1 pts
+			The eardrum is just about 10 mm across.
+			Correct!
+			  True 
+			  False 
+			 
+			Question 4
+			1 / 1 pts
+			The ear contains the smallest bones in your body.
+			Correct!
+			  True 
+			  False 
+			 
+			Question 5
+			1 / 1 pts
+			The fibers within the ear are what give us a signal that we heard something.
+			  True 
+			Correct!
+			  False 
+			<h3>Chapter 14 - Quiz</h3>
+			Question 1
+			1 / 1 pts
+			Which of these cranial nerves is part of the gustatory system?
+			
+			  trochlear 
+			  olfactory 
+			Correct!
+			  facial 
+			  trigeminal 
+			 
+			Question 2
+			1 / 1 pts
+			Which submodality of taste is sensitive to the pH of saliva?
+			
+			  bitter 
+			  sweet 
+			  umami 
+			Correct!
+			  sour 
+			 
+			Question 3
+			0 / 1 pts
+			Axons from which neuron in the retina make up the optic nerve?
+			
+			  bipolar cells 
+			  amacrine cells 
+			You Answered
+			  photoreceptors 
+			Correct Answer
+			  retinal ganglion cells 
+			 
+			Question 4
+			1 / 1 pts
+			What type of receptor cell is involved in the sensations of sound and balance?
+			  nociceptor 
+			  photoreceptor 
+			Correct!
+			  mechanoreceptor 
+			  chemoreceptor 
+			 
+			Question 5
+			1 / 1 pts
+			What type of receptor cell is responsible for transducing pain stimuli?
+			
+			  osmoreceptor 
+			  mechanoreceptor 
+			Correct!
+			  nociceptor 
+			  photoreceptor 
+			 
+			Question 6
+			1 / 1 pts
+			Which nucleus in the medulla is connected to the inferior colliculus?
+			
+			Correct!
+			  cochlear nucleus 
+			  solitary nucleus 
+			  vestibular nucleus 
+			  chief sensory nucleus 
+			 
+			Question 7
+			1 / 1 pts
+			This is a word meaning on the same side.
+			  ossilateral 
+			Correct!
+			  ipsilateral 
+			  propolateral 
+			  otolateral 
+			 
+			Question 8
+			1 / 1 pts
+			Visual stimuli in the upper-left visual field will be processed in what region of the primary visual cortex?
+			
+			  inferior left 
+			  superior right 
+			  superior left 
+			Correct!
+			  inferior right 
+			 
+			Question 9
+			1 / 1 pts
+			____________ is a molecule that activates nociceptors by interacting with a temperature-sensitive ion channel and is the basis for “hot” sensations in spicy food.
+			Correct!
+			  Capsaicin 
+			  Basilar 
+			  Cochlea 
+			  Auricle 
+			 
+			Question 10
+			1 / 1 pts
+			Which location on the body has the largest region of somatosensory cortex representing it, according to the sensory homunculus?
+			
+			  elbow 
+			  thigh 
+			  neck 
+			Correct!
+			  lips 
+			 
+			Question 11
+			0 / 1 pts
+			Which of the following is a direct target of the vestibular ganglion?
+			
+			You Answered
+			  superior colliculus 
+			  pons 
+			Correct Answer
+			  cerebellum 
+			  optic chiasm 
+			 
+			Question 12
+			1 / 1 pts
+			This is a specialized structure within the base of a semicircular canal that bends the stereocilia of hair cells when the head rotates by way of the relative movement of the enclosed fluid.
+			Correct!
+			  cupula 
+			  fovea 
+			  incus 
+			  decussate 
+			 
+			Question 13
+			1 / 1 pts
+			This structure is located in the ear, it is the structure at the base of a semicircular canal that contains the hair cells and cupula for transduction of rotational movement of the head.
+			  anosmia 
+			  cochlea 
+			  auricle 
+			Correct!
+			  ampulla 
+			 
+			Question 14
+			1 / 1 pts
+			Which region of the frontal lobe is responsible for initiating movement by directly connecting to cranial and spinal motor neurons?
+			Correct!
+			  primary motor cortex 
+			  prefrontal cortex 
+			  supplemental motor area 
+			  premotor cortex 
+			 
+			Question 15
+			1 / 1 pts
+			Which extrapyramidal tract incorporates equilibrium sensations with motor commands to aid in posture and movement?
+			
+			Correct!
+			  vestibulospinal tract 
+			  tectospinal tract 
+			  corticospinal tract 
+			  reticulospinal tract 
+			 
+			Question 16
+			1 / 1 pts
+			Which region of gray matter in the spinal cord contains motor neurons that innervate skeletal muscles?
+			  lateral column 
+			  dorsal horn 
+			Correct!
+			  ventral horn 
+			  lateral horn 
+			 
+			Question 17
+			1 / 1 pts
+			What type of reflex can protect the foot when a painful stimulus is sensed?
+			
+			  stretch reflex 
+			  gag reflex 
+			  corneal reflex 
+			Correct!
+			  withdrawal reflex 
+			 
+			Question 18
+			1 / 1 pts
+			What is the name for the topographical representation of the sensory input to the somatosensory cortex?
+			
+			  postcentral gyrus 
+			  homo sapiens 
+			  primary cortex 
+			Correct!
+			  homunculus 
+			 
+			Question 19
+			1 / 1 pts
+			What is the name of a photopigment molecule found in the rod photoreceptors?
+			  osposin 
+			  photopsin 
+			  proprioception 
+			Correct!
+			  rhodopsin 
+			 
+			Question 20
+			1 / 1 pts
+			_________________ is a general sense associated with modalities lumped together as touch.
+			  Transduction 
+			Correct!
+			  Somatosensation 
+			  Stereocilia 
+			  Vitreal 
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 15 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 15 - Placeholder</h2>
+		<div>
+			<h3>Chapter 15 - Homework</h3>
+			Question 1
+			1 / 1 pts
+			The man in the video is able to move out of the way of the moving car due to adrenaline. 
+			  True 
+			Correct!
+			  False 
+			 
+			Question 2
+			1 / 1 pts
+			The adrenal medulla is connected nervously to the brain.
+			Correct!
+			  True 
+			  False 
+			 
+			Question 3
+			1 / 1 pts
+			During the flight or fight response, epinephrine moves into the cells.
+			  True 
+			Correct!
+			  False 
+			 
+			Question 4
+			1 / 1 pts
+			In the kidney, glycogen is converted into glucose as a source of energy for our cells.
+			  True 
+			Correct!
+			  False 
+			 
+			Question 5
+			1 / 1 pts
+			Epinephrine speeds up digestion during the flight or fight response.
+			  True 
+			Correct!
+			  False 
+			<h3>Chapter 15 - Quiz</h3>
+			Question 1
+			1 / 1 pts
+			Which of these physiological changes would not be considered part of the sympathetic fight-or-flight response?
+			
+			  increased heart rate 
+			  increased sweating 
+			Correct!
+			  increased stomach motility 
+			  dilated pupils 
+			 
+			Question 2
+			1 / 1 pts
+			Which type of fiber could be considered the longest?
+			
+			  postganglionic parasympathetic 
+			  preganglionic sympathetic 
+			  postganglionic sympathetic 
+			Correct!
+			  preganglionic parasympathetic 
+			 
+			Question 3
+			1 / 1 pts
+			Which signaling molecule is most likely responsible for an increase in digestive activity?
+			
+			  adrenaline 
+			  norepinephrine 
+			  epinephrine 
+			Correct!
+			  acetylcholine 
+			 
+			Question 4
+			1 / 1 pts
+			Which of these cranial nerves contains preganglionic parasympathetic fibers?
+			
+			  trigeminal, CN V 
+			  hypoglossal, CN XII 
+			Correct!
+			  facial, CN VII 
+			  optic, CN II 
+			 
+			Question 5
+			1 / 1 pts
+			A target effector, such as the heart, receives input from the sympathetic and parasympathetic systems. What is the actual difference between the sympathetic and parasympathetic divisions at the level of those connections (i.e., at the synapse)?  Choose all that might apply.
+			Correct!
+			  The postganglionic sympathetic fiber releases norepinephrine. 
+			  The postganglionic sympathetic fiber releases baroreceptors. 
+			Correct!
+			  Specific locations in the heart have adrenergic receptors and muscarinic receptors. Which receptors are bound is the signal that determines how the heart responds. 
+			Correct!
+			  The postganglionic parasympathetic fiber releases acetylcholine. 
+			 
+			Question 6
+			1 / 1 pts
+			In the context of a lioness hunting on the savannah, why would the sympathetic system not activate the digestive system?
+			Correct!
+			  Both of these 
+			  Neither of these 
+			  Energy is needed for running away from the threat, blood needs to be sent to the skeletal muscles for oxygen supply. 
+			  Additional fuel, in the form of carbohydrates, probably wouldn’t improve the ability to escape the threat as much as the diversion of oxygen-rich blood would hinder it. 
+			 
+			Question 7
+			1 / 1 pts
+			Which of the following is not a target of a sympathetic preganglionic fiber?
+			
+			  adrenal gland 
+			  chain ganglion 
+			Correct!
+			  intermural ganglion 
+			  collateral ganglion 
+			 
+			Question 8
+			0 / 1 pts
+			Which of the following represents a sensory input that is not part of both the somatic and autonomic systems?
+			
+			  proprioception 
+			  taste 
+			Correct Answer
+			  baroreception 
+			You Answered
+			  vision 
+			 
+			Question 9
+			1 / 1 pts
+			What is the term for a reflex that does not include a CNS component?
+			  somatic reflex 
+			  visceral reflex 
+			Correct!
+			  short reflex 
+			  long reflex 
+			 
+			Question 10
+			1 / 1 pts
+			What neurotransmitter will result in constriction of the pupil?
+			
+			  epinephrine 
+			  norepinephrine 
+			  serotonin 
+			Correct!
+			  acetylcholine 
+			 
+			Question 11
+			1 / 1 pts
+			What gland produces a secretion that causes fight-or-flight responses in effectors?
+			
+			  reproductive gland 
+			Correct!
+			  adrenal medulla 
+			  salivatory gland 
+			  thymus 
+			 
+			Question 12
+			1 / 1 pts
+			Which of the following is an incorrect pairing?
+			
+			  norepinephrine dilates the pupil 
+			  norepinephrine increases heart rate 
+			  epinephrine increases blood pressure 
+			Correct!
+			  acetylcholine decreases digestion 
+			 
+			Question 13
+			1 / 1 pts
+			Which of these locations in the forebrain is the master control center for homeostasis through the autonomic and endocrine systems?
+			
+			  cerebral cortex 
+			  thalamus 
+			  amygdala 
+			Correct!
+			  hypothalamus 
+			 
+			Question 14
+			1 / 1 pts
+			Which nerve projects to the hypothalamus to indicate the level of light stimuli in the retina?
+			
+			  glossopharyngeal 
+			Correct!
+			  optic 
+			  vagus 
+			  oculomotor 
+			 
+			Question 15
+			1 / 1 pts
+			What region of the limbic lobe is responsible for generating stress responses via the hypothalamus?
+			
+			  mammillary bodies 
+			  hippocampus 
+			  prefrontal cortex 
+			Correct!
+			  amygdala 
+			 
+			Question 16
+			1 / 1 pts
+			What is another name for the preganglionic sympathetic fibers that project to the heart?
+			
+			  vasomotor nerve 
+			Correct!
+			  cardiac accelerator nerve 
+			  vagus nerve 
+			  solitary tract 
+			 
+			Question 17
+			1 / 1 pts
+			What is the term used to describe any exogenous substance that binds to a receptor and produces an opposing effect to the endogenous ligand?
+			Correct!
+			  antagonist 
+			  mesenteric 
+			  synergistic 
+			  terminal 
+			 
+			Question 18
+			1 / 1 pts
+			Which of the following is an exogenous substance that binds to a receptor and produces an opposing effect to the endogenous ligand?
+			  protagonist 
+			  unitagonist 
+			  multitagonist 
+			Correct!
+			  antagonist 
+			 
+			Question 19
+			1 / 1 pts
+			Which of the following is a mechanoreceptor that senses the stretch of blood vessels to indicate changes in blood pressure?
+			
+			  monoreceptor 
+			Correct!
+			  baroreceptor 
+			  mechoreceptor 
+			  salinoreceptor 
+			 
+			Question 20
+			0.75 / 1 pts
+			Medical practice is paying more attention to the autonomic system in considering disease states. Why would autonomic tone be important in considering cardiovascular disease? Check all (or none) that might apply.
+			Correct!
+			  Some disorders may be exacerbated by autonomic deficits and common therapies might not be as effective. 
+			Correct!
+			  Pharmaceuticals that treat cardiovascular disorders may be more effective if they work with the normal state of the autonomic system. 
+			Correct Answer
+			  Within the cardiovascular system, different aspects demonstrate variation in autonomic tone. 
+			Correct!
+			  Heart rate is under parasympathetic tone, and blood pressure is under sympathetic tone.
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 16 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 16 - Placeholder</h2>
+		<div>
+			<h3>Chapter 16 - Homework</h3>
+			Question 1
+			1 / 1 pts
+			The smallest and most dense sensory units are located in those areas that have the greatest somatosensory cortical representation.
+			  True Correct
+			  False 
+			 
+			Question 2
+			1 / 1 pts
+			The patient in this video is standing up.
+			  True 
+			  False Correct
+			 
+			Question 3
+			1 / 1 pts
+			Doctors cut the corpus callosum in order to reduce or minimize the epileptic seizures in Joe.
+			  True Correct
+			  False 
+			 
+			Question 4
+			1 / 1 pts
+			The left side of your brain controls the left side of your body.
+			  True 
+			  False Correct
+			 
+			Question 5
+			1 / 1 pts
+			The ability to speak resides almost exclusively in the left hemisphere. 
+			  True Correct
+			  False 
+			<h3>Chapter 16 - Quiz</h3>
+			<!-- Add content here -->
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 18 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 18 - Placeholder</h2>
+		<div>
+			<h3>Chapter 18 - Homework</h3>
+			Question 1
+			1 / 1 pts
+			homeworok18.jpg
+			
+			DVT is a condition that forms when a blood clot forms in a deep vein.
+			
+			Correct!
+			  True 
+			  False 
+			 
+			Question 2
+			1 / 1 pts
+			homeworok18b.jpg
+			
+			The superficial veins do not lie close to the surface of the skin.
+			
+			  True 
+			Correct!
+			  False 
+			 
+			Question 3
+			1 / 1 pts
+			homeworok18c.jpg
+			
+			Veins have valves that prevent the blood from flowing back towards the feet.
+			
+			Correct!
+			  True 
+			  False 
+			 
+			Question 4
+			1 / 1 pts
+			homeworok18d.jpg
+			
+			Usually blood clots are small and your body will remove them on its own.
+			
+			Correct!
+			  True 
+			  False 
+			 
+			Question 5
+			1 / 1 pts
+			homeworok18e.jpg
+			
+			DVT always causes symptoms.
+			
+			  True 
+			Correct!
+			  False 
+			<h3>Chapter 18 - Quiz</h3>
+			Question 1
+			1 / 1 pts
+			Which of the following describes a neutrophil?
+			
+			  abundant, agranular, especially effective against cancer cells 
+			  rare, granular, contains multiple granules packed with histamine 
+			  rare, agranular, releases antimicrobial defensins 
+			Correct!
+			  abundant, granular, especially effective against bacteria 
+			 
+			Question 2
+			1 / 1 pts
+			Which of the following plasma proteins are produced by the liver?
+			
+			  fibrinogen 
+			  beta globulin 
+			  alpha globulin 
+			Correct!
+			  all of these are produced by the liver 
+			 
+			Question 3
+			1 / 1 pts
+			The process in which antibodies attach to antigens, causing the formation of masses of linked cells, is called _____________.
+			
+			  coagulation 
+			  sensitization 
+			  hemolysis 
+			Correct!
+			  agglutination 
+			 
+			Question 4
+			1 / 1 pts
+			Which of the formed elements arise from myeloid stem cells?
+			
+			  all of the above 
+			  B cells 
+			Correct!
+			  platelets 
+			  natural killer cells 
+			 
+			Question 5
+			1 / 1 pts
+			People with ABO blood type O ___________.
+			
+			  have both antigens A and B on their erythrocytes 
+			  have neither anti-A nor anti-B antibodies circulating in their blood plasma 
+			Correct!
+			  lack both antigens A and B on their erythrocytes 
+			  are considered universal recipients 
+			 
+			Question 6
+			1 / 1 pts
+			Which of the following statements about erythropoietin is true?
+			
+			  Both a and b are true. 
+			Correct!
+			  It facilitates the proliferation and differentiation of the erythrocyte lineage. 
+			  It is a hormone produced by the thyroid gland. 
+			  It is a hemopoietic growth factor that prompts lymphoid stem cells to leave the bone marrow. 
+			 
+			Question 7
+			1 / 1 pts
+			Which of the following statements about albumin is true?
+			
+			  It draws water out of the blood vessels and into the body’s tissues. 
+			  All of the above are true. 
+			Correct!
+			  It is the most abundant plasma protein. 
+			  It is produced by specialized leukocytes called plasma cells. 
+			 
+			Question 8
+			1 / 1 pts
+			Interleukins are associated primarily with which of the following?
+			Correct!
+			  all of the above 
+			  inflammation 
+			  production of various lymphocytes 
+			  immune responses 
+			 
+			Question 9
+			1 / 1 pts
+			Aging and damaged erythrocytes are removed from the circulation by ________.
+			
+			  mast cells 
+			Correct!
+			  macrophages 
+			  myeoblasts 
+			  monocytes 
+			 
+			Question 10
+			1 / 1 pts
+			Which of the following statements about blood is true?
+			
+			  Blood is slightly more salty than seawater. 
+			  Blood is slightly more acidic than water. 
+			  Blood is about 10 percent water. 
+			Correct!
+			  Blood constitutes approximately 8 percent of adult body weight. 
+			 
+			Question 11
+			1 / 1 pts
+			Prothrombin is converted to thrombin during the ________.
+			
+			  formation of the platelet plug 
+			  extrinsic pathway 
+			  intrinsic pathway 
+			Correct!
+			  common pathway 
+			 
+			Question 12
+			1 / 1 pts
+			Hemophilia is characterized by __________________.
+			
+			  excessive production of fibrinogen 
+			  inadequate production of heparin 
+			  excessive production of platelets 
+			Correct!
+			  inadequate production of clotting factors 
+			 
+			Question 13
+			1 / 1 pts
+			A patient has been suffering for 2 months with a chronic, watery diarrhea. A blood test is likely to reveal ________.
+			  a hematocrit below 30 percent 
+			  hypoxemia 
+			Correct!
+			  polycythemia 
+			  anemia 
+			 
+			Question 14
+			1 / 1 pts
+			Prothrombin is converted to thrombin during the _________________.
+			
+			  intrinsic pathway 
+			  extrinsic pathway 
+			  formation of the platelet plug 
+			Correct!
+			  common pathway 
+			 
+			Question 15
+			1 / 1 pts
+			The process by which leukocytes squeeze through adjacent cells in a blood vessel wall is called ________.
+			
+			  positive chemotaxis 
+			Correct!
+			  emigration 
+			  leukocytosis 
+			  cytoplasmic extending 
+			 
+			Question 16
+			1 / 1 pts
+			T and B lymphocytes ________.
+			
+			  proliferate excessively in leukopenia 
+			  are polymorphonuclear 
+			Correct!
+			  are involved with specific immune function 
+			  are most active against parasitic worms 
+			 
+			Question 17
+			1 / 1 pts
+			A patient has been experiencing severe, persistent allergy symptoms that are reduced when she takes an antihistamine. Before the treatment, this patient was likely to have had increased activity of which leukocytes?
+			
+			  neutrophils 
+			Correct!
+			  basophils 
+			  natural killer cells 
+			  monocytes 
+			 
+			Question 18
+			1 / 1 pts
+			Thrombocytes are more accurately called ________.
+			
+			Correct!
+			  platelets 
+			  clotting factors 
+			  megakaryoblasts 
+			  megakaryocytes 
+			 
+			Question 19
+			1 / 1 pts
+			The first step in hemostasis is ________.
+			
+			  activation of the common pathway 
+			Correct!
+			  vascular spasm 
+			  activation of the intrinsic pathway 
+			  conversion of fibrinogen to fibrin 
+			 
+			Question 20
+			1 / 1 pts
+			Hemolytic disease of the newborn is a risk during a subsequent pregnancy in which ____________.
+			
+			  a type AB person is carrying a type O fetus 
+			Correct!
+			  an Rh− person is carrying a second Rh+ fetus 
+			  an Rh+ person is carrying an Rh− fetus 
+			  a type O person is carrying a type AB fetus 
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 20 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 20 - Placeholder</h2>
+		<div>
+			<h3>Chapter 20 - Homework</h3>
+			<!-- ...existing content... -->
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 21 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 21 - Placeholder</h2>
+		<div>
+			<h3>Chapter 21 - Homework</h3>
+			<!-- ...existing content... -->
+		</div>
+	</section>
+
+	<!-- Placeholder for Chapter 23 -->
+	<section class="collapsed">
+		<h2 on:click={toggleAccordion}>Chapter 23 - Placeholder</h2>
+		<div>
+			<h3>Chapter 23 - Homework</h3>
+			<!-- ...existing content... -->
+		</div>
+	</section>
+</main>

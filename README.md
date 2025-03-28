@@ -1,38 +1,42 @@
-# sv
+## Ideas
+- question hints, explanations, and memorization ideas
+- question type should be array. multiple-choice, flashcard, select-all-that-apply.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+---
 
-## Creating a project
+2025-03-27: I would copy a quiz into the landing page "./routes/+page.svelte" then tell Copilot to perform formatting of that data. I would then preserve the results after ensuring the 20 questions were processed.
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is my conversation with Copilot to preserve the instructions:
 
-```bash
-# create a new project in the current directory
-npx sv create
+What is your understanding of what needs to be done when I would tell you, "fresh data - 20 questions"?
 
-# create a new project in my-app
-npx sv create my-app
-```
+GitHub Copilot
+When you say, "fresh data - 20 questions", my understanding is:
 
-## Developing
+Purpose:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+You want me to format and retain only the "Questions" section from the provided data, which contains 20 questions.
+File Handling:
 
-```bash
-npm run dev
+If the file already exists, I will modify it directly.
+I will ensure the filepath in the code block matches the original file's filepath exactly.
+Content Changes:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Extract and format the 20 questions from the provided data.
+Each question will:
+Be enclosed in an <li> tag.
+Include a <ul> tag for the answer options.
+Highlight the correct answer using a <p> tag with <strong> for emphasis.
+Formatting:
 
-## Building
+Use consistent formatting for all questions.
+Represent unchanged regions of the file with ...existing code... to avoid repeating unnecessary content.
+Code Block:
 
-To create a production version of your app:
+Start the code block with a comment containing the filepath (e.g., // filepath: /home/sagreen/Notes/src/routes/+page.svelte).
+Output:
 
-```bash
-npm run build
-```
+Provide the formatted "Questions" section as a complete <section> block with 20 questions.
+Let me know if this aligns with your expectations!
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
