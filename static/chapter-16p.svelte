@@ -23,7 +23,7 @@
             <p><strong>Correct Answer:</strong> vagus</p>
             <p><strong>Explanation:</strong> The vagus nerve controls muscles in the throat that are involved in the gag reflex.</p>
         </li>
-        <li></li>
+        <li>
             <p>Which major section of the neurological exam includes subtests that are sometimes considered a separate set of tests concerned with walking?</p>
             <ul>
                 <li>sensory exam</li>
