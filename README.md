@@ -40,3 +40,12 @@ Provide the formatted "Questions" section as a complete <section> block with 20 
 Let me know if this aligns with your expectations!
 
 ---
+
+Parts of a question:
+- Passage
+- Question
+    - Stem
+    - Options
+        - Answer
+        - Distractors
+    
