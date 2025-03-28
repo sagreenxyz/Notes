@@ -10,6 +10,7 @@
                 <li>abundant, granular, especially effective against bacteria</li>
             </ul>
             <p><strong>Correct Answer:</strong> abundant, granular, especially effective against bacteria</p>
+            <p><em>Explanation:</em> Neutrophils are the most abundant type of white blood cells and play a key role in fighting bacterial infections.</p>
         </li>
         <li>
             <p>Which of the following plasma proteins are produced by the liver?</p>
@@ -20,6 +21,7 @@
                 <li>all of these are produced by the liver</li>
             </ul>
             <p><strong>Correct Answer:</strong> all of these are produced by the liver</p>
+            <p><em>Explanation:</em> The liver produces several important plasma proteins, including fibrinogen, beta globulin, and alpha globulin, which play various roles in blood clotting and immune function.</p>
         </li>
         <li>
             <p>The process in which antibodies attach to antigens, causing the formation of masses of linked cells, is called _____________.</p>
@@ -30,6 +32,7 @@
                 <li>agglutination</li>
             </ul>
             <p><strong>Correct Answer:</strong> agglutination</p>
+            <p><em>Explanation:</em> Agglutination is the clumping of particles, such as cells, due to the binding of antibodies to antigens on the surface of the cells.</p>
         </li>
         <li>
             <p>Which of the formed elements arise from myeloid stem cells?</p>
@@ -40,6 +43,7 @@
                 <li>natural killer cells</li>
             </ul>
             <p><strong>Correct Answer:</strong> platelets</p>
+            <p><em>Explanation:</em> Platelets, also known as thrombocytes, are formed from myeloid stem cells and play a crucial role in blood clotting.</p>
         </li>
         <li>
             <p>People with ABO blood type O ___________.</p>
@@ -50,6 +54,7 @@
                 <li>are considered universal recipients</li>
             </ul>
             <p><strong>Correct Answer:</strong> lack both antigens A and B on their erythrocytes</p>
+            <p><em>Explanation:</em> Individuals with blood type O lack both A and B antigens on their red blood cells, making them universal donors for red blood cell transfusions.</p>
         </li>
         <li>
             <p>Which of the following statements about erythropoietin is true?</p>
@@ -60,6 +65,7 @@
                 <li>It is a hemopoietic growth factor that prompts lymphoid stem cells to leave the bone marrow.</li>
             </ul>
             <p><strong>Correct Answer:</strong> It facilitates the proliferation and differentiation of the erythrocyte lineage.</p>
+            <p><em>Explanation:</em> Erythropoietin is a hormone produced by the kidneys that stimulates the production of red blood cells in the bone marrow.</p>
         </li>
         <li>
             <p>Which of the following statements about albumin is true?</p>
@@ -70,6 +76,7 @@
                 <li>It is produced by specialized leukocytes called plasma cells.</li>
             </ul>
             <p><strong>Correct Answer:</strong> It is the most abundant plasma protein.</p>
+            <p><em>Explanation:</em> Albumin is the most abundant plasma protein and plays a key role in maintaining osmotic pressure and transporting various substances in the blood.</p>
         </li>
         <li>
             <p>Interleukins are associated primarily with which of the following?</p>
@@ -80,6 +87,7 @@
                 <li>immune responses</li>
             </ul>
             <p><strong>Correct Answer:</strong> all of the above</p>
+            <p><em>Explanation:</em> Interleukins are a group of cytokines that play important roles in inflammation, immune responses, and the production of lymphocytes.</p>
         </li>
         <li>
             <p>Aging and damaged erythrocytes are removed from the circulation by ________.</p>
@@ -90,6 +98,7 @@
                 <li>monocytes</li>
             </ul>
             <p><strong>Correct Answer:</strong> macrophages</p>
+            <p><em>Explanation:</em> Macrophages are large phagocytic cells that engulf and digest aging and damaged red blood cells, removing them from circulation.</p>
         </li>
         <li>
             <p>Which of the following statements about blood is true?</p>
@@ -100,6 +109,7 @@
                 <li>Blood constitutes approximately 8 percent of adult body weight.</li>
             </ul>
             <p><strong>Correct Answer:</strong> Blood constitutes approximately 8 percent of adult body weight.</p>
+            <p><em>Explanation:</em> Blood makes up about 8 percent of an adult's body weight and is essential for transporting oxygen, nutrients, and waste products throughout the body.</p>
         </li>
         <li>
             <p>Prothrombin is converted to thrombin during the ________.</p>
@@ -110,6 +120,7 @@
                 <li>common pathway</li>
             </ul>
             <p><strong>Correct Answer:</strong> common pathway</p>
+            <p><em>Explanation:</em> The conversion of prothrombin to thrombin occurs during the common pathway of the coagulation cascade, leading to the formation of a blood clot.</p>
         </li>
         <li>
             <p>Hemophilia is characterized by __________________.</p>
@@ -120,6 +131,7 @@
                 <li>inadequate production of clotting factors</li>
             </ul>
             <p><strong>Correct Answer:</strong> inadequate production of clotting factors</p>
+            <p><em>Explanation:</em> Hemophilia is a genetic disorder characterized by the inadequate production of clotting factors, leading to excessive bleeding.</p>
         </li>
         <li>
             <p>A patient has been suffering for 2 months with a chronic, watery diarrhea. A blood test is likely to reveal ________.</p>
@@ -130,6 +142,7 @@
                 <li>anemia</li>
             </ul>
             <p><strong>Correct Answer:</strong> polycythemia</p>
+            <p><em>Explanation:</em> Chronic diarrhea can lead to dehydration, which may cause an increase in the concentration of red blood cells, resulting in polycythemia.</p>
         </li>
         <li>
             <p>Prothrombin is converted to thrombin during the _________________.</p>
@@ -140,6 +153,7 @@
                 <li>common pathway</li>
             </ul>
             <p><strong>Correct Answer:</strong> common pathway</p>
+            <p><em>Explanation:</em> The conversion of prothrombin to thrombin occurs during the common pathway of the coagulation cascade, leading to the formation of a blood clot.</p>
         </li>
         <li>
             <p>The process by which leukocytes squeeze through adjacent cells in a blood vessel wall is called ________.</p>
@@ -150,6 +164,7 @@
                 <li>cytoplasmic extending</li>
             </ul>
             <p><strong>Correct Answer:</strong> emigration</p>
+            <p><em>Explanation:</em> Emigration, also known as diapedesis, is the process by which white blood cells move through the walls of blood vessels to reach sites of infection or injury.</p>
         </li>
         <li>
             <p>T and B lymphocytes ________.</p>
@@ -160,6 +175,7 @@
                 <li>are most active against parasitic worms</li>
             </ul>
             <p><strong>Correct Answer:</strong> are involved with specific immune function</p>
+            <p><em>Explanation:</em> T and B lymphocytes are types of white blood cells that play crucial roles in the body's specific immune response, targeting specific pathogens.</p>
         </li>
         <li>
             <p>A patient has been experiencing severe, persistent allergy symptoms that are reduced when she takes an antihistamine. Before the treatment, this patient was likely to have had increased activity of which leukocytes?</p>
@@ -170,6 +186,7 @@
                 <li>monocytes</li>
             </ul>
             <p><strong>Correct Answer:</strong> basophils</p>
+            <p><em>Explanation:</em> Basophils release histamine, which contributes to allergy symptoms. Antihistamines reduce these symptoms by blocking the effects of histamine.</p>
         </li>
         <li>
             <p>Thrombocytes are more accurately called ________.</p>
@@ -180,6 +197,7 @@
                 <li>megakaryocytes</li>
             </ul>
             <p><strong>Correct Answer:</strong> platelets</p>
+            <p><em>Explanation:</em> Thrombocytes, commonly known as platelets, are cell fragments that play a key role in blood clotting.</p>
         </li>
         <li>
             <p>The first step in hemostasis is ________.</p>
@@ -190,6 +208,7 @@
                 <li>conversion of fibrinogen to fibrin</li>
             </ul>
             <p><strong>Correct Answer:</strong> vascular spasm</p>
+            <p><em>Explanation:</em> The first step in hemostasis is vascular spasm, which involves the constriction of blood vessels to reduce blood flow and limit blood loss.</p>
         </li>
         <li>
             <p>Hemolytic disease of the newborn is a risk during a subsequent pregnancy in which ____________.</p>
@@ -200,6 +219,7 @@
                 <li>a type O person is carrying a type AB fetus</li>
             </ul>
             <p><strong>Correct Answer:</strong> an Rh− person is carrying a second Rh+ fetus</p>
+            <p><em>Explanation:</em> Hemolytic disease of the newborn can occur when an Rh− mother carries an Rh+ fetus, leading to the mother's immune system attacking the fetus's red blood cells in subsequent pregnancies.</p>
         </li>
     </ol>
 </section>
