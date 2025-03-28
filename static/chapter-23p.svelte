@@ -1,12 +1,6 @@
 <section>
 	<h2>Chapter 23 - Questions</h2>
 	<ol>
-		<!-- Add questions here -->
-	</ol>
-</section>
-<section>
-	<h2>Chapter 23 - Questions</h2>
-	<ol>
 		<li>
 			<p>Which of the following membranes covers the stomach?</p>
 			<ul>
