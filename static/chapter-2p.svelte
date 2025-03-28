@@ -1,12 +1,6 @@
 <section>
 	<h2>Chapter 2 - Questions</h2>
 	<ol>
-		<!-- Add questions here -->
-	</ol>
-</section>
-<section>
-	<h2>Chapter 2 - Questions</h2>
-	<ol>
 		<li>
 			<p>The ability of an enzyme’s active sites to bind only substrates of compatible shape and charge is known as ____________.</p>
 			<ul>

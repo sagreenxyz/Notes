@@ -1,12 +1,6 @@
 <section>
 	<h2>Chapter 21 - Questions</h2>
 	<ol>
-		<!-- Add questions here -->
-	</ol>
-</section>
-<section>
-	<h2>Chapter 21 - Questions</h2>
-	<ol>
 		<li>
 			<p>Which structure allows lymph from the lower right limb to enter the bloodstream?</p>
 			<ul>

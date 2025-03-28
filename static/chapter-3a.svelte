@@ -1,5 +1,3 @@
-<!-- Skip To Content -->
-<main>
 	<section>
 		<h2>Chapter 3 - Questions</h2>
 		<ol>
@@ -225,10 +223,4 @@
 			</li>
 		</ol>
 	</section>
-	<section>
-		<h2>Chapter 3 - Answers</h2>
-		<ol>
-			<!-- Add answers here -->
-		</ol>
-	</section>
-</main>
+

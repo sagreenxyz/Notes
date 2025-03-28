@@ -223,10 +223,3 @@
 		</li>
 	</ol>
 </section>
-
-<section>
-	<h2>Chapter 22 - Answers</h2>
-	<ol>
-		<!-- Add answers here -->
-	</ol>
-</section>
