@@ -1,104 +1,55 @@
 <script>
-  export let className = "textbook"; // Set the default class for this page
+    export let className = "textbook"; // Set the default class for this page
 </script>
 
 <main>
-  <h1>Welcome to the Page</h1>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
-  <div class="content-with-side-notes">
-    <div class="excerpt-with-side-note">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at 
-        <span class="side-note-anchor">This is where the first side note goes.</span> libero sed nunc venenatis imperdiet sed ornare turpis.
-      </p>
-      <aside class="side-note right">
-        <p>This is the best thing since sliced bread!</p>
-      </aside>
-    </div>
-    <div class="excerpt-with-side-note">
-      <p>
-        Another excerpt of text that has a <span class="side-note-anchor">second side note here.</span> This is additional content to demonstrate multiple side notes.
-      </p>
-      <aside class="side-note right">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sequi vel veritatis voluptas, distinctio eos modi harum deserunt id velit, laboriosam porro eaque libero repellat deleniti! Deserunt laborum in odio.</p>
-      </aside>
-    </div>
-    <div class="excerpt-with-side-note">
-      <p>
-        This is an excerpt with a <span class="side-note-anchor">side note on the left.</span> It demonstrates how side notes can be positioned on either side of the main text.
-      </p>
-      <aside class="side-note left">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure exercitationem repudiandae fugit? Possimus, facilis quas? Quibusdam magnam nisi reprehenderit tempore quaerat impedit, veniam atque hic sapiente qui error vero rem.</p>
-      </aside>
-    </div>
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. At commodi, praesentium et ad, exercitationem voluptatum perferendis illo libero a sed quidem ducimus repellendus delectus, enim velit id blanditiis animi incidunt?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio soluta aliquam architecto aspernatur repudiandae perspiciatis nesciunt iste dolorum facere earum, aperiam ipsa ullam error. Magni expedita laudantium tempore molestias itaque.
-    </div>
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed aperiam omnis, reiciendis nam, illum eveniet itaque nisi repellendus fugit, error dolore delectus officia ex soluta maxime placeat eos a.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores fugit eveniet facere, cum repellat reprehenderit delectus dolorem accusantium nobis laboriosam optio quis consequuntur harum illum sed consectetur assumenda. Suscipit, harum?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatibus velit, ad, reprehenderit dignissimos optio dicta animi dolores ab dolorem nisi sequi accusamus. Assumenda cum totam corrupti, explicabo quo deleniti.
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus earum molestiae nisi iste voluptatum? Architecto praesentium, alias repudiandae, ipsum magnam tenetur ullam laudantium aut odio vero ipsa esse, nisi explicabo?
-    </div>
-  </div>
+    <p>This photo shows a group of people climbing a mountain.</p>
+    <figure>
+        <img src="https://openstax.org/apps/archive/20250226.165223/resources/5b212eacccecba4854ae9fe7c8746e3b28943d18" alt="Mountain Climbers">
+        <figcaption>
+            <strong>Figure 22.1 Mountain Climbers</strong> The thin air at high elevations can strain the human respiratory system. (credit: “bortescristian”/flickr.com)
+        </figcaption>
+    </figure>
+    <h2>Chapter Objectives</h2>
+    <ul>
+        <li>List the structures of the respiratory system</li>
+        <li>List the major functions of the respiratory system</li>
+        <li>Outline the forces that allow for air movement into and out of the lungs</li>
+        <li>Outline the process of gas exchange</li>
+        <li>Summarize the process of oxygen and carbon dioxide transport within the respiratory system</li>
+        <li>Create a flow chart illustrating how respiration is controlled</li>
+        <li>Discuss how the respiratory system responds to exercise</li>
+        <li>Describe the development of the respiratory system in the embryo</li>
+    </ul>
+    <p>
+        Hold your breath. Really! See how long you can hold your breath as you continue reading…How long can you do it? Chances are you are feeling uncomfortable already. A typical human cannot survive without breathing for more than 3 minutes, and even if you wanted to hold your breath longer, your autonomic nervous system would take control. This is because every cell in the body needs to run the oxidative stages of cellular respiration, the process by which energy is produced in the form of adenosine triphosphate (ATP). For oxidative phosphorylation to occur, oxygen is used as a reactant and carbon dioxide is released as a waste product. You may be surprised to learn that although oxygen is a critical need for cells, it is actually the accumulation of carbon dioxide that primarily drives your need to breathe. Carbon dioxide is exhaled and oxygen is inhaled through the respiratory system, which includes muscles to move air into and out of the lungs, passageways through which air moves, and microscopic gas exchange surfaces covered by capillaries. The circulatory system transports gases from the lungs to tissues throughout the body and vice versa. A variety of diseases can affect the respiratory system, such as asthma, emphysema, chronic obstructive pulmonary disorder (COPD), and lung cancer. All of these conditions affect the gas exchange process and result in labored breathing and other difficulties.
+    </p>
 </main>
 
 <style>
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    position: relative;
-    font-size: 1.5rem; /* Increased font size for better readability */
-    line-height: 1.8; /* Adjusted line height for improved spacing */
-  }
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        position: relative;
+        font-size: 1.5rem; /* Increased font size for better readability */
+        line-height: 1.8; /* Adjusted line height for improved spacing */
+    }
 
-  .content-with-side-notes {
-    position: relative;
-  }
+    figure img {
+        max-width: 100%; /* Ensure the image fits within the page width */
+        height: auto; /* Maintain aspect ratio */
+    }
 
-  .excerpt-with-side-note {
-    display: block; /* Revert to block layout for natural text flow */
-    position: relative;
-    margin-bottom: 1rem; /* Reduced spacing between excerpts */
-  }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: Arial, sans-serif; /* Set headings to use a sans-serif font */
+    }
 
-  .excerpt-with-side-note p {
-    margin-bottom: 0; /* Remove bottom margin from paragraphs inside excerpts */
-  }
+    ul {
+        margin-bottom: 1.5rem; /* Add spacing below the list */
+    }
 
-  .side-note-anchor {
-    position: relative;
-  }
-
-  .side-note {
-    position: absolute; /* Use absolute positioning for side notes */
-    top: 0;
-    width: 180px; /* Adjust width as needed */
-    background-color: transparent; /* Match the main page background */
-    border: none; /* Remove the border */
-    padding: 1rem;
-    box-shadow: none; /* Remove the shadow */
-    font-size: 0.9rem; /* Set side note text size to 1rem */
-    font-family: Arial, sans-serif; /* Set side note text to use a sans-serif font */
-  }
-
-  .side-note.right {
-    right: -250px; /* Adjust as needed for spacing */
-  }
-
-  .side-note.left {
-    left: -250px; /* Adjust as needed for spacing */
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, sans-serif; /* Set headings to use a sans-serif font */
-  }
-
-  div {
-    margin-bottom: 1.5rem; /* Increased spacing between div elements */
-  }
+    p {
+        margin-bottom: 1.5rem; /* Add spacing below paragraphs */
+    }
 </style>
