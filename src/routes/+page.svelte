@@ -5,7 +5,6 @@
 <main>
     <p>This photo shows a group of people climbing a mountain.</p>
     <figure>
-        <img src="https://openstax.org/apps/archive/20250226.165223/resources/5b212eacccecba4854ae9fe7c8746e3b28943d18" alt="Mountain Climbers">
         <figcaption>
             <strong>Figure 22.1 Mountain Climbers</strong> The thin air at high elevations can strain the human respiratory system. (credit: “bortescristian”/flickr.com)
         </figcaption>
@@ -21,9 +20,19 @@
         <li>Discuss how the respiratory system responds to exercise</li>
         <li>Describe the development of the respiratory system in the embryo</li>
     </ul>
-    <p>
-        Hold your breath. Really! See how long you can hold your breath as you continue reading…How long can you do it? Chances are you are feeling uncomfortable already. A typical human cannot survive without breathing for more than 3 minutes, and even if you wanted to hold your breath longer, your autonomic nervous system would take control. This is because every cell in the body needs to run the oxidative stages of cellular respiration, the process by which energy is produced in the form of adenosine triphosphate (ATP). For oxidative phosphorylation to occur, oxygen is used as a reactant and carbon dioxide is released as a waste product. You may be surprised to learn that although oxygen is a critical need for cells, it is actually the accumulation of carbon dioxide that primarily drives your need to breathe. Carbon dioxide is exhaled and oxygen is inhaled through the respiratory system, which includes muscles to move air into and out of the lungs, passageways through which air moves, and microscopic gas exchange surfaces covered by capillaries. The circulatory system transports gases from the lungs to tissues throughout the body and vice versa. A variety of diseases can affect the respiratory system, such as asthma, emphysema, chronic obstructive pulmonary disorder (COPD), and lung cancer. All of these conditions affect the gas exchange process and result in labored breathing and other difficulties.
-    </p>
+    <div class="side-note-container">
+        <p>
+            Hold your breath. Really! See how long you can hold your breath as you continue reading…How long can you do it? Chances are you are feeling uncomfortable already. A typical human cannot survive without breathing for more than 3 minutes, and even if you wanted to hold your breath longer, your autonomic nervous system would take control. This is because every cell in the body needs to run the oxidative stages of cellular respiration, the process by which energy is produced in the form of adenosine triphosphate (ATP).
+        </p>
+    </div>
+    <div class="side-note-container">
+        <p>
+            For oxidative phosphorylation to occur, oxygen is used as a reactant and carbon dioxide is released as a waste product. You may be surprised to learn that although oxygen is a critical need for cells, it is actually the accumulation of carbon dioxide that primarily drives your need to breathe.
+        </p>
+        <aside class="side-note right">
+            <p>Oxidative phosphorylation converts ADP back into ATP.</p>
+        </aside>
+    </div>
 </main>
 
 <style>
@@ -51,5 +60,30 @@
 
     p {
         margin-bottom: 1.5rem; /* Add spacing below paragraphs */
+    }
+
+    .side-note-container {
+        position: relative; /* Ensure side notes are positioned relative to the container */
+        margin-bottom: 2rem; /* Add spacing between containers */
+    }
+
+    .side-note {
+        position: absolute; /* Use absolute positioning for side notes */
+        top: 0;
+        width: 180px; /* Adjust width as needed */
+        background-color: transparent; /* Match the main page background */
+        border: none; /* Remove the border */
+        padding: 1rem;
+        box-shadow: none; /* Remove the shadow */
+        font-size: 0.9rem; /* Set side note text size */
+        font-family: Arial, sans-serif; /* Set side note text to use a sans-serif font */
+    }
+
+    .side-note.right {
+        right: -250px; /* Adjust as needed for spacing */
+    }
+
+    .side-note.left {
+        left: -250px; /* Adjust as needed for spacing */
     }
 </style>
